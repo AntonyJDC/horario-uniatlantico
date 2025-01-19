@@ -30,18 +30,78 @@ const SubjectList: React.FC<SubjectListProps> = ({
                 // Verifica si la materia está activa en el calendario
                 const activeInfo = activeSubjectInfo[subject.code];
 
+                // Obtener el último profesor activo
+                const lastActiveProfessor =
+                    activeTeachers.length > 0 ? activeTeachers[activeTeachers.length - 1] : null;
+
                 return (
-                    <li key={subject.code} className="bg-white p-4 rounded-lg shadow">
+                    <li key={subject.code} className="border-b border-gray-300 p-2">
                         <div className="flex items-center justify-between">
-                            <p className="font-bold text-lg">{subject.name}</p>
-                            <Switch checked={isActive} onCheckedChange={(checked) => toggleSubject(subject.code, checked)} />
+                            <div className="flex items-center gap-4 mb-2">
+                                <Switch
+                                    checked={isActive}
+                                    onCheckedChange={(checked) => toggleSubject(subject.code, checked)}
+                                />
+                                <p className="font-bold text-lg">{subject.name}</p>
+                            </div>
+                            {isActive && lastActiveProfessor && (
+                                (() => {
+                                    const lastActiveTeacher = subject.teachers.find(
+                                        (t) => t.professor === lastActiveProfessor
+                                    );
+                                    if (!lastActiveTeacher) return null;
+
+                                    const activeGroupNumber =
+                                        activeGroups[lastActiveTeacher.professor] ||
+                                        lastActiveTeacher.groups[0].number;
+                                    const currentGroupIndex = lastActiveTeacher.groups.findIndex(
+                                        (g) => g.number === activeGroupNumber
+                                    );
+
+                                    return (
+                                        <div className="flex items-center gap-2 w-[120px] justify-center">
+                                            <Button
+                                                size="sm"
+                                                className={`rounded-r-none w-8 flex justify-center ${currentGroupIndex === 0 ? "bg-transparent shadow-none transition-all" : ""
+                                                    }`}
+                                                onClick={() =>
+                                                    currentGroupIndex > 0 &&
+                                                    changeGroup(subject.code, lastActiveTeacher.professor, "prev")
+                                                }
+                                                disabled={currentGroupIndex === 0}
+                                            >
+                                                <ChevronLeft />
+                                            </Button>
+                                            <span className="text-sm w-10 text-center">{activeGroupNumber}</span>
+                                            <Button
+                                                size="sm"
+                                                className={`rounded-l-none w-8 flex justify-center ${currentGroupIndex === lastActiveTeacher.groups.length - 1
+                                                    ? "bg-transparent shadow-none transition-all"
+                                                    : ""
+                                                    }`}
+                                                onClick={() =>
+                                                    currentGroupIndex < lastActiveTeacher.groups.length - 1 &&
+                                                    changeGroup(subject.code, lastActiveTeacher.professor, "next")
+                                                }
+                                                disabled={currentGroupIndex === lastActiveTeacher.groups.length - 1}
+                                            >
+                                                <ChevronRight />
+                                            </Button>
+                                        </div>
+                                    );
+                                })()
+                            )}
                         </div>
 
                         {/* Mostrar el recuadro de información si la materia está activa */}
                         {isActive && activeInfo && (
-                            <div className={`p-4 rounded-lg shadow mt-4 ${activeInfo ? "bg-blue-200/70 border border-blue-200 text-blue-800" : "bg-red-200"}`}>
+                            <div
+                                className={`p-4 rounded-lg shadow mt-4 ${activeInfo ? "bg-blue-200/70 border border-blue-200 text-blue-800" : "bg-red-200"
+                                    }`}
+                            >
                                 <p className="text-sm">
-                                    <strong>Materia curso:</strong> {subject.code} - <strong>Grupo:</strong> {activeInfo.group}
+                                    <strong>Materia curso:</strong> {subject.code} -{" "}
+                                    <strong>Grupo:</strong> {activeInfo.group}
                                 </p>
                                 <p className="text-sm">
                                     <strong>Profesor:</strong> {activeInfo.professor}
@@ -51,44 +111,21 @@ const SubjectList: React.FC<SubjectListProps> = ({
 
                         {/* Lista de profesores */}
                         {isActive &&
-                            subject.teachers.map((teacher) => {
-                                const activeGroupNumber = activeGroups[teacher.professor] || teacher.groups[0].number;
-                                const currentGroupIndex = teacher.groups.findIndex((g) => g.number === activeGroupNumber);
+                            subject.teachers.map((teacher) => (
+                                <div key={teacher.professor} className="mt-4">
+                                    <div className="flex items-center justify-between">
+                                        <p className="text-sm font-medium">{teacher.professor}</p>
 
-                                return (
-                                    <div key={teacher.professor} className="mt-4">
-                                        <div className="flex items-center justify-between">
-                                            <p className="text-sm font-medium">{teacher.professor}</p>
-
-                                            <div className="flex items-center gap-2 w-[120px] justify-center">
-                                                <Button
-                                                    size="sm"
-                                                    className={`rounded-r-none w-8 flex justify-center ${currentGroupIndex === 0 ? "bg-transparent shadow-none transition-all" : ""}`}
-                                                    onClick={() => currentGroupIndex > 0 && changeGroup(subject.code, teacher.professor, "prev")}
-                                                    disabled={currentGroupIndex === 0}
-                                                >
-                                                    <ChevronLeft />
-                                                </Button>
-                                                <span className="text-sm w-10 text-center">{activeGroupNumber}</span>
-                                                <Button
-                                                    size="sm"
-                                                    className={`rounded-l-none w-8 flex justify-center ${currentGroupIndex === teacher.groups.length - 1 ? "bg-transparent shadow-none transition-all" : ""}`}
-                                                    onClick={() => currentGroupIndex < teacher.groups.length - 1 && changeGroup(subject.code, teacher.professor, "next")}
-                                                    disabled={currentGroupIndex === teacher.groups.length - 1}
-                                                >
-                                                    <ChevronRight />
-                                                </Button>
-                                            </div>
-
-
-                                            <Switch
-                                                checked={activeTeachers.includes(teacher.professor)}
-                                                onCheckedChange={(checked) => toggleProfessor(subject.code, teacher.professor, checked)}
-                                            />
-                                        </div>
+                                        <Switch
+                                            checked={activeTeachers.includes(teacher.professor)}
+                                            onCheckedChange={(checked) =>
+                                                toggleProfessor(subject.code, teacher.professor, checked)
+                                            }
+                                        />
                                     </div>
-                                );
-                            })}
+                                </div>
+                            ))
+                        }
                     </li>
                 );
             })}

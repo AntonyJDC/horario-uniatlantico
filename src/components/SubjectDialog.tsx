@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./ui/dialog";
 import { Switch } from "./ui/switch";
 import { Subject } from "../types";
 import { Button } from "./ui/button";
-
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "./ui/accordion";
+import { Input } from "./ui/input";
 interface SubjectDialogProps {
     isOpen: boolean;
     setIsOpen: (open: boolean) => void;
@@ -19,25 +20,74 @@ const SubjectDialog: React.FC<SubjectDialogProps> = ({
     selectedSubjects,
     handleToggleSubject,
 }) => {
+
+    const normalizeText = (text: string) => {
+        return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    };
+
+
+    const [searchTerm, setSearchTerm] = useState("");
+
+    const filteredSubjects = subjects.filter((subject) =>
+        normalizeText(subject.name).includes(normalizeText(searchTerm)) ||
+        normalizeText(subject.code).includes(normalizeText(searchTerm))
+    );
+
+    const subjectsBySemester = filteredSubjects.reduce((acc, subject) => {
+        const semester = subject.semester || "Otro";
+        if (!acc[semester]) {
+            acc[semester] = [];
+        }
+        acc[semester].push(subject);
+        return acc;
+    }, {} as Record<string, Subject[]>);
+
     return (
         <Dialog open={isOpen} onOpenChange={setIsOpen}>
-            <DialogContent className="max-w-lg">
+            <DialogContent className="max-w-auto max-h-[80vh] overflow-y-auto">
                 <DialogHeader>
-                    <DialogTitle>Selecciona una Materia</DialogTitle>
+                    <DialogTitle>Selecciona tus materias</DialogTitle>
                 </DialogHeader>
+
+                <Input
+                    placeholder="Buscar materia"
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                    className="mb-4"
+                />
                 <ul className="space-y-4">
-                    {subjects.map((subject) => (
-                        <li key={subject.code} className="flex justify-between items-center p-2 border-b">
-                            <div>
-                                <p className="font-bold">{subject.name}</p>
-                                <p className="text-sm text-gray-500">Código: {subject.code}</p>
-                            </div>
-                            <Switch
-                                checked={selectedSubjects.some((s) => s.code === subject.code)}
-                                onCheckedChange={(checked) => handleToggleSubject(subject, checked)}
-                            />
-                        </li>
-                    ))}
+                    <Accordion type="multiple" defaultValue={Object.keys(subjectsBySemester)} className="w-full">
+                        {Object.entries(
+                            filteredSubjects.reduce((acc, subject) => {
+                                const semester = subject.semester || "Otro";
+                                if (!acc[semester]) {
+                                    acc[semester] = [];
+                                }
+                                acc[semester].push(subject);
+                                return acc;
+                            }, {} as Record<string, Subject[]>)
+                        ).map(([semester, semesterSubjects]) => (
+                            <AccordionItem key={semester} value={semester}>
+                                <AccordionTrigger>Semestre {semester}</AccordionTrigger>
+                                <AccordionContent>
+                                    <ul className="space-y-2">
+                                        {semesterSubjects.map((subject) => (
+                                            <li key={subject.code} className="flex justify-between items-center p-2 border-b">
+                                                <div>
+                                                    <p className="font-bold">{subject.name}</p>
+                                                    <p className="text-sm text-gray-500">Código: {subject.code}</p>
+                                                </div>
+                                                <Switch
+                                                    checked={selectedSubjects.some((s) => s.code === subject.code)}
+                                                    onCheckedChange={(checked) => handleToggleSubject(subject, checked)}
+                                                />
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </AccordionContent>
+                            </AccordionItem>
+                        ))}
+                    </Accordion>
                 </ul>
                 <div className="flex justify-end">
                     <Button
@@ -52,3 +102,4 @@ const SubjectDialog: React.FC<SubjectDialogProps> = ({
 };
 
 export default SubjectDialog;
+

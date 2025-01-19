@@ -27,7 +27,7 @@ const ScheduleTable: React.FC<ScheduleTableProps> = ({ subjects }) => {
             </thead>
             <tbody>
                 {hours.map((hour, index) => (
-                    <tr key={index}>
+                    <tr key={index} className={index % 2 === 0 ? "bg-gray-100" : "bg-white"}>
                         <td className="border border-gray-300 px-4 py-2 text-center">{hour}</td>
                         {days.map((day) => {
                             const subjectsAtTime = subjects.filter((s) => {

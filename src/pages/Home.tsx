@@ -4,6 +4,8 @@ import SubjectList from "../components/SubjectList";
 import SubjectDialog from "../components/SubjectDialog";
 import { Subject, CalendarSubject } from "../types";
 import { Button } from "../components/ui/button";
+import { Plus, Download } from "lucide-react";
+import subjectsData from "../data/subjects.json";
 
 const Home: React.FC = () => {
     const [selectedSubjects, setSelectedSubjects] = useState<{
@@ -20,218 +22,48 @@ const Home: React.FC = () => {
 
     const [isDialogOpen, setDialogOpen] = useState(false);
 
-    const [subjects] = useState<Subject[]>([
-        {
-            code: "ECA0030",
-            name: "Diversidad Cultural Caribe Col",
-            semester: "2025-1",
-            teachers: [
-                {
-                    professor: "ALARCON PUENTES JOHNNY ALBERTO",
-                    groups: [
-                        {
-                            number: 41,
-                            schedule: [{ day: "Miércoles", startTime: "12:00", endTime: "14:00" }],
-                            room: "12A",
-                        },
-                        {
-                            number: 42,
-                            schedule: [{ day: "Viernes", startTime: "12:00", endTime: "14:00" }],
-                            room: "14B",
-                        },
-                        {
-                            number: 43,
-                            schedule: [{ day: "Lunes", startTime: "12:00", endTime: "14:00" }],
-                            room: "14B",
-                        },
-                    ],
-                },
-                {
-                    professor: "ALARCON PUENTES JEN ALBERTO",
-                    groups: [
-                        {
-                            number: 41,
-                            schedule: [{ day: "Miércoles", startTime: "12:00", endTime: "14:00" }],
-                            room: "12A",
-                        },
-                        {
-                            number: 42,
-                            schedule: [{ day: "Viernes", startTime: "12:00", endTime: "14:00" }],
-                            room: "14B",
-                        },
-                    ],
-                },
-            ],
-        },
-        {
-            code: "MAT0020",
-            name: "Cálculo Diferencial",
-            semester: "2025-1",
-            teachers: [
-                {
-                    professor: "JUAN PÉREZ",
-                    groups: [
-                        {
-                            number: 101,
-                            schedule: [{ day: "Miércoles", startTime: "12:00", endTime: "14:00" }], // Conflicto con "Diversidad Cultural Caribe Col"
-                            room: "20C",
-                        },
-                        {
-                            number: 102,
-                            schedule: [{ day: "Jueves", startTime: "08:00", endTime: "10:00" }],
-                            room: "21D",
-                        },
-                    ],
-                },
-            ],
-        },
-        {
-            code: "FIS0030",
-            name: "Física Mecánica",
-            semester: "2025-1",
-            teachers: [
-                {
-                    professor: "MARÍA GÓMEZ",
-                    groups: [
-                        {
-                            number: 301,
-                            schedule: [{ day: "Lunes", startTime: "10:00", endTime: "12:00" }],
-                            room: "11B",
-                        },
-                        {
-                            number: 302,
-                            schedule: [{ day: "Martes", startTime: "14:00", endTime: "16:00" }],
-                            room: "15C",
-                        },
-                    ],
-                },
-            ],
-        },
-        {
-            code: "QUI0040",
-            name: "Química General",
-            semester: "2025-1",
-            teachers: [
-                {
-                    professor: "LUIS MARTÍNEZ",
-                    groups: [
-                        {
-                            number: 501,
-                            schedule: [{ day: "Lunes", startTime: "10:00", endTime: "12:00" }], // Conflicto con "Física Mecánica"
-                            room: "22A",
-                        },
-                        {
-                            number: 502,
-                            schedule: [{ day: "Miércoles", startTime: "14:00", endTime: "16:00" }],
-                            room: "18B",
-                        },
-                        {
-                            number: 503,
-                            schedule: [{ day: "Viernes", startTime: "14:00", endTime: "16:00" }],
-                            room: "18B",
-                        },
-                    ],
-                },
-            ],
-        },
-        {
-            code: "PROG0050",
-            name: "Programación Avanzada",
-            semester: "2025-1",
-            teachers: [
-                {
-                    professor: "CARLOS RODRÍGUEZ",
-                    groups: [
-                        {
-                            number: 601,
-                            schedule: [{ day: "Viernes", startTime: "08:00", endTime: "10:00" }],
-                            room: "30D",
-                        },
-                        {
-                            number: 602,
-                            schedule: [{ day: "Martes", startTime: "16:00", endTime: "18:00" }],
-                            room: "35E",
-                        },
-                    ],
-                },
-                {
-                    professor: "CARLOS RODRÍGUEZ A",
-                    groups: [
-                        {
-                            number: 603,
-                            schedule: [{ day: "Martes", startTime: "16:00", endTime: "18:00" }], // Conflicto con el mismo docente
-                            room: "35E",
-                        },
-                    ],
-                },
-            ],
-        },
-        {
-            code: "RED0060",
-            name: "Redes de Computadores",
-            semester: "2025-1",
-            teachers: [
-                {
-                    professor: "ANA FERNÁNDEZ",
-                    groups: [
-                        {
-                            number: 701,
-                            schedule: [{ day: "Jueves", startTime: "10:00", endTime: "12:00" }],
-                            room: "42A",
-                        },
-                        {
-                            number: 702,
-                            schedule: [{ day: "Viernes", startTime: "14:00", endTime: "16:00" }],
-                            room: "43B",
-                        },
-                    ],
-                },
-            ],
-        },
-    ]);
+    const subjects: Subject[] = subjectsData.semesters.flatMap((semester) => semester.subjects);
 
+     useEffect(() => {
+        const newCalendarSubjects: CalendarSubject[] = [];
+        const newActiveSubjectInfo: Record<string, { professor: string; group: number }> = {};
 
-    useEffect(() => {
-    const newCalendarSubjects: CalendarSubject[] = [];
-    const newActiveSubjectInfo: Record<string, { professor: string; group: number }> = {};
+        selectedSubjects.forEach(({ subject, isActive, activeGroups, activeTeachers }) => {
+            if (isActive && activeTeachers.length > 0) {
+                const lastActiveProfessor = activeTeachers[activeTeachers.length - 1];
+                const teacher = subject.teachers.find((t) => t.professor === lastActiveProfessor);
 
-    selectedSubjects.forEach(({ subject, isActive, activeGroups, activeTeachers }) => {
-        if (isActive && activeTeachers.length > 0) {
-            const lastActiveProfessor = activeTeachers[activeTeachers.length - 1];
-            const teacher = subject.teachers.find((t) => t.professor === lastActiveProfessor);
+                if (teacher) {
+                    const groupNumber = activeGroups[lastActiveProfessor] || teacher.groups[0].number;
+                    const group = teacher.groups.find((g) => g.number === groupNumber);
 
-            if (teacher) {
-                const groupNumber = activeGroups[lastActiveProfessor] || teacher.groups[0].number;
-                const group = teacher.groups.find((g) => g.number === groupNumber);
-
-                if (group) {
-                    group.schedule.forEach((schedule) => {
-                        newCalendarSubjects.push({
-                            code: subject.code,
-                            name: subject.name,
-                            day: schedule.day,
-                            startTime: schedule.startTime,
-                            endTime: schedule.endTime,
-                            professor: lastActiveProfessor,
-                            room: group.room,
-                            group: group.number,
+                    if (group) {
+                        group.schedule.forEach((schedule) => {
+                            newCalendarSubjects.push({
+                                code: subject.code,
+                                name: subject.name,
+                                day: schedule.day,
+                                startTime: schedule.startTime,
+                                endTime: schedule.endTime,
+                                professor: lastActiveProfessor,
+                                room: group.room,
+                                group: group.number,
+                            });
                         });
-                    });
 
-                    newActiveSubjectInfo[subject.code] = {
-                        professor: lastActiveProfessor,
-                        group: groupNumber,
-                    };
+                        newActiveSubjectInfo[subject.code] = {
+                            professor: lastActiveProfessor,
+                            group: groupNumber,
+                        };
+                    }
                 }
             }
-        }
-    });
+        });
 
-    setCalendarSubjects(newCalendarSubjects);
-    setActiveSubjectInfo(newActiveSubjectInfo);  // Ensure this line exists
-}, [selectedSubjects]);
-
-
+        setCalendarSubjects(newCalendarSubjects);
+        setActiveSubjectInfo(newActiveSubjectInfo);
+    }, [selectedSubjects]);
+    
 
     const handleToggleSubject = (subject: Subject, isActive: boolean) => {
         setSelectedSubjects((prev) => {
@@ -299,12 +131,33 @@ const Home: React.FC = () => {
 
 
     return (
-        <div className="mx-16 my-8">
-            <h1 className="text-2xl font-bold mb-4">Gestión de Horarios</h1>
+        <div className="mx-4 md:mx-16 my-8">
+            <div className="flex flex-col md:flex-row justify-between items-center text-center mb-8">
+                <img
+                    src="https://www.uniatlantico.edu.co/wp-content/uploads/2023/01/Universidad-del-Atlántico-e1672809639550-300x127.png"
+                    alt="Universidad del Atlántico"
+                    className="h-16 md:h-20 mb-4 md:mb-0"
+                />
+                <h1 className="text-2xl md:text-3xl font-bold leading-tight">
+                    Horario de clases para <br className="hidden md:block" />
+                    Licenciatura en Educación Infantil
+                </h1>
+                <p className="text-base md:text-lg text-gray-500">Semestre 2025-1</p>
+            </div>
 
-            <div className="grid grid-cols-12 gap-4">
-                <div className="col-span-4 bg-gray-100 rounded-lg p-4 shadow-md">
-                    <h2 className="text-lg font-semibold mb-4">Materias seleccionadas</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4">
+                <div className="col-span-1 md:col-span-2 lg:col-span-3 bg-gray-100 rounded-lg p-4 shadow-md">
+                    <div className="flex flex-col md:flex-row justify-between items-center">
+                        <Button className="w-full md:w-auto m-2" onClick={() => setDialogOpen(true)}>
+                            <Plus size={20} className="mr-2" />
+                            Añadir Materias
+                        </Button>
+                        <Button className="w-full md:w-auto m-2">
+                            <Download size={20} className="mr-2" />
+                            Descargar
+                        </Button>
+                    </div>
+
                     <SubjectList
                         selectedSubjects={selectedSubjects}
                         toggleSubject={toggleSubject}
@@ -312,12 +165,9 @@ const Home: React.FC = () => {
                         changeGroup={changeGroup}
                         activeSubjectInfo={activeSubjectInfo}
                     />
-                    <Button className="w-full mt-4" onClick={() => setDialogOpen(true)}>
-                        Añadir Materias
-                    </Button>
                 </div>
 
-                <div className="col-span-8">
+                <div className="col-span-1 md:col-span-2 lg:col-span-9 overflow-x-auto">
                     <ScheduleTable subjects={calendarSubjects} />
                 </div>
             </div>
