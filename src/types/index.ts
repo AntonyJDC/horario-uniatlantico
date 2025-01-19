@@ -5,15 +5,14 @@ export interface Schedule {
   }
   
   export interface Group {
+    number: number;  // Agregamos el número de grupo
     schedule: Schedule[];
     room: string;
   }
   
   export interface Teacher {
     professor: string;
-    groupNumber1?: Group;
-    groupNumber2?: Group;
-    groupNumber3?: Group;
+    groups: Group[];  // Cambio de múltiples propiedades a un array de grupos
   }
   
   export interface Subject {
