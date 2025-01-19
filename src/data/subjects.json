@@ -15,7 +15,7 @@
                                     "number": 41,
                                     "schedule": [
                                         {
-                                            "day": "Sabado",
+                                            "day": "Sábado",
                                             "startTime": "08:31",
                                             "endTime": "10:30"
                                         }
@@ -54,7 +54,7 @@
                                     "number": 41,
                                     "schedule": [
                                         {
-                                            "day": "Sabado",
+                                            "day": "Sábado",
                                             "startTime": "10:31",
                                             "endTime": "12:30"
                                         }
@@ -110,22 +110,6 @@
                     "semester": "0",
                     "teachers": [
                         {
-                            "professor": "DAYANA  GRANADOS CASTRO",
-                            "groups": [
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Sabado",
-                                            "startTime": "08:31",
-                                            "endTime": "10:30"
-                                        }
-                                    ],
-                                    "room": "AULA 17"
-                                }
-                            ]
-                        },
-                        {
                             "professor": "LUIS ALFREDO GÓMEZ LINARES",
                             "groups": [
                                 {
@@ -138,6 +122,22 @@
                                         }
                                     ],
                                     "room": "203H"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "DAYANA  GRANADOS CASTRO",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Sábado",
+                                            "startTime": "08:31",
+                                            "endTime": "10:30"
+                                        }
+                                    ],
+                                    "room": "AULA 17"
                                 }
                             ]
                         }
@@ -273,22 +273,6 @@
                     "semester": "0",
                     "teachers": [
                         {
-                            "professor": "DIANA SEVERINA SANTAMARIA HERNANDEZ",
-                            "groups": [
-                                {
-                                    "number": 43,
-                                    "schedule": [
-                                        {
-                                            "day": "Sabado",
-                                            "startTime": "14:31",
-                                            "endTime": "16:30"
-                                        }
-                                    ],
-                                    "room": "115 C.U"
-                                }
-                            ]
-                        },
-                        {
                             "professor": "MARCO TURBAY ILLUECA",
                             "groups": [
                                 {
@@ -301,6 +285,22 @@
                                         }
                                     ],
                                     "room": "305E"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "DIANA SEVERINA SANTAMARIA HERNANDEZ",
+                            "groups": [
+                                {
+                                    "number": 43,
+                                    "schedule": [
+                                        {
+                                            "day": "Sábado",
+                                            "startTime": "14:31",
+                                            "endTime": "16:30"
+                                        }
+                                    ],
+                                    "room": "115 C.U"
                                 }
                             ]
                         }
@@ -358,22 +358,6 @@
                     "semester": "0",
                     "teachers": [
                         {
-                            "professor": "ANDREA CAROLIINA CARRILLO MORALES",
-                            "groups": [
-                                {
-                                    "number": 41,
-                                    "schedule": [
-                                        {
-                                            "day": "Jueves",
-                                            "startTime": "14:31",
-                                            "endTime": "16:30"
-                                        }
-                                    ],
-                                    "room": "105F"
-                                }
-                            ]
-                        },
-                        {
                             "professor": "EDWIN EDUARDO OLIVEROS OSORIO",
                             "groups": [
                                 {
@@ -386,6 +370,22 @@
                                         }
                                     ],
                                     "room": "104 C.U"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "ANDREA CAROLIINA CARRILLO MORALES",
+                            "groups": [
+                                {
+                                    "number": 41,
+                                    "schedule": [
+                                        {
+                                            "day": "Jueves",
+                                            "startTime": "14:31",
+                                            "endTime": "16:30"
+                                        }
+                                    ],
+                                    "room": "105F"
                                 }
                             ]
                         }
@@ -403,7 +403,7 @@
                                     "number": 41,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "16:31",
                                             "endTime": "18:30"
                                         }
@@ -482,38 +482,6 @@
                     "semester": "1",
                     "teachers": [
                         {
-                            "professor": "DAYANA MARGARITA NAVARRO MORALES",
-                            "groups": [
-                                {
-                                    "number": 47,
-                                    "schedule": [
-                                        {
-                                            "day": "Jueves",
-                                            "startTime": "10:31",
-                                            "endTime": "12:30"
-                                        }
-                                    ],
-                                    "room": "AULA 15"
-                                }
-                            ]
-                        },
-                        {
-                            "professor": "LEONARDO  CELIS ROYET",
-                            "groups": [
-                                {
-                                    "number": 42,
-                                    "schedule": [
-                                        {
-                                            "day": "Jueves",
-                                            "startTime": "08:31",
-                                            "endTime": "10:30"
-                                        }
-                                    ],
-                                    "room": "214H"
-                                }
-                            ]
-                        },
-                        {
                             "professor": "MANUEL CONSUEGRA ALGARIN",
                             "groups": [
                                 {
@@ -542,7 +510,7 @@
                                     "number": 45,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "10:31",
                                             "endTime": "12:30"
                                         }
@@ -552,18 +520,18 @@
                             ]
                         },
                         {
-                            "professor": "MARCO TURBAY ILLUECA",
+                            "professor": "LEONARDO  CELIS ROYET",
                             "groups": [
                                 {
-                                    "number": 46,
+                                    "number": 42,
                                     "schedule": [
                                         {
-                                            "day": "Sabado",
-                                            "startTime": "10:31",
-                                            "endTime": "12:30"
+                                            "day": "Jueves",
+                                            "startTime": "08:31",
+                                            "endTime": "10:30"
                                         }
                                     ],
-                                    "room": "206E"
+                                    "room": "214H"
                                 }
                             ]
                         },
@@ -580,6 +548,38 @@
                                         }
                                     ],
                                     "room": "101 C.U"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "MARCO TURBAY ILLUECA",
+                            "groups": [
+                                {
+                                    "number": 46,
+                                    "schedule": [
+                                        {
+                                            "day": "Sábado",
+                                            "startTime": "10:31",
+                                            "endTime": "12:30"
+                                        }
+                                    ],
+                                    "room": "206E"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "DAYANA MARGARITA NAVARRO MORALES",
+                            "groups": [
+                                {
+                                    "number": 47,
+                                    "schedule": [
+                                        {
+                                            "day": "Jueves",
+                                            "startTime": "10:31",
+                                            "endTime": "12:30"
+                                        }
+                                    ],
+                                    "room": "AULA 15"
                                 }
                             ]
                         }
@@ -600,13 +600,7 @@
                                             "day": "Lunes",
                                             "startTime": "12:31",
                                             "endTime": "14:30"
-                                        }
-                                    ],
-                                    "room": "405E"
-                                },
-                                {
-                                    "number": 41,
-                                    "schedule": [
+                                        },
                                         {
                                             "day": "Martes",
                                             "startTime": "12:31",
@@ -619,23 +613,17 @@
                                     "number": 43,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "12:31",
                                             "endTime": "14:30"
-                                        }
-                                    ],
-                                    "room": "113 C.U"
-                                },
-                                {
-                                    "number": 43,
-                                    "schedule": [
+                                        },
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "14:31",
                                             "endTime": "16:30"
                                         }
                                     ],
-                                    "room": "102 C.U"
+                                    "room": "113 C.U"
                                 },
                                 {
                                     "number": 45,
@@ -644,20 +632,14 @@
                                             "day": "Jueves",
                                             "startTime": "12:31",
                                             "endTime": "14:30"
-                                        }
-                                    ],
-                                    "room": "307E"
-                                },
-                                {
-                                    "number": 45,
-                                    "schedule": [
+                                        },
                                         {
                                             "day": "Viernes",
                                             "startTime": "16:31",
                                             "endTime": "18:30"
                                         }
                                     ],
-                                    "room": "306E"
+                                    "room": "307E"
                                 },
                                 {
                                     "number": 47,
@@ -673,22 +655,6 @@
                             ]
                         },
                         {
-                            "professor": "LUIS CARLOS LOPEZ VALLEJO",
-                            "groups": [
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Miercoles",
-                                            "startTime": "08:31",
-                                            "endTime": "12:30"
-                                        }
-                                    ],
-                                    "room": "AULA 1"
-                                }
-                            ]
-                        },
-                        {
                             "professor": "OSCAR LUIS SANJUAN VARELA",
                             "groups": [
                                 {
@@ -698,20 +664,14 @@
                                             "day": "Lunes",
                                             "startTime": "14:31",
                                             "endTime": "16:30"
-                                        }
-                                    ],
-                                    "room": "405E"
-                                },
-                                {
-                                    "number": 42,
-                                    "schedule": [
+                                        },
                                         {
                                             "day": "Martes",
                                             "startTime": "14:31",
                                             "endTime": "16:30"
                                         }
                                     ],
-                                    "room": "404E"
+                                    "room": "405E"
                                 },
                                 {
                                     "number": 46,
@@ -720,20 +680,30 @@
                                             "day": "Jueves",
                                             "startTime": "16:31",
                                             "endTime": "18:30"
-                                        }
-                                    ],
-                                    "room": "407E"
-                                },
-                                {
-                                    "number": 46,
-                                    "schedule": [
+                                        },
                                         {
                                             "day": "Viernes",
                                             "startTime": "14:31",
                                             "endTime": "16:30"
                                         }
                                     ],
-                                    "room": "308E"
+                                    "room": "407E"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "LUIS CARLOS LOPEZ VALLEJO",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Miércoles",
+                                            "startTime": "08:31",
+                                            "endTime": "12:30"
+                                        }
+                                    ],
+                                    "room": "AULA 1"
                                 }
                             ]
                         }
@@ -744,38 +714,6 @@
                     "name": "EDUCACION Y CONTEXTO DE LA EDUCACION INF",
                     "semester": "1",
                     "teachers": [
-                        {
-                            "professor": "ADRIANA DEL ROSARIO PINEDA ROBAYO",
-                            "groups": [
-                                {
-                                    "number": 47,
-                                    "schedule": [
-                                        {
-                                            "day": "Miercoles",
-                                            "startTime": "12:31",
-                                            "endTime": "14:30"
-                                        }
-                                    ],
-                                    "room": "AULA 15"
-                                }
-                            ]
-                        },
-                        {
-                            "professor": "CARLOS MARIO RAMOS GELVEZ",
-                            "groups": [
-                                {
-                                    "number": 42,
-                                    "schedule": [
-                                        {
-                                            "day": "Viernes",
-                                            "startTime": "16:31",
-                                            "endTime": "18:30"
-                                        }
-                                    ],
-                                    "room": "405E"
-                                }
-                            ]
-                        },
                         {
                             "professor": "EDILBERTO  HART MONTES",
                             "groups": [
@@ -794,7 +732,7 @@
                                     "number": 43,
                                     "schedule": [
                                         {
-                                            "day": "Sabado",
+                                            "day": "Sábado",
                                             "startTime": "11:31",
                                             "endTime": "13:30"
                                         }
@@ -811,6 +749,22 @@
                                         }
                                     ],
                                     "room": "AULA 10"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "CARLOS MARIO RAMOS GELVEZ",
+                            "groups": [
+                                {
+                                    "number": 42,
+                                    "schedule": [
+                                        {
+                                            "day": "Viernes",
+                                            "startTime": "16:31",
+                                            "endTime": "18:30"
+                                        }
+                                    ],
+                                    "room": "405E"
                                 }
                             ]
                         },
@@ -840,6 +794,22 @@
                                     "room": "601A"
                                 }
                             ]
+                        },
+                        {
+                            "professor": "ADRIANA DEL ROSARIO PINEDA ROBAYO",
+                            "groups": [
+                                {
+                                    "number": 47,
+                                    "schedule": [
+                                        {
+                                            "day": "Miércoles",
+                                            "startTime": "12:31",
+                                            "endTime": "14:30"
+                                        }
+                                    ],
+                                    "room": "AULA 15"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -848,6 +818,44 @@
                     "name": "LEGISLACION Y POLITICAS EN LA PRIMERA INFAN",
                     "semester": "1",
                     "teachers": [
+                        {
+                            "professor": "VILMA LUCIA RIAÑO GONZALEZ",
+                            "groups": [
+                                {
+                                    "number": 41,
+                                    "schedule": [
+                                        {
+                                            "day": "Jueves",
+                                            "startTime": "16:31",
+                                            "endTime": "19:30"
+                                        }
+                                    ],
+                                    "room": "304D"
+                                },
+                                {
+                                    "number": 42,
+                                    "schedule": [
+                                        {
+                                            "day": "Miércoles",
+                                            "startTime": "16:31",
+                                            "endTime": "19:30"
+                                        }
+                                    ],
+                                    "room": "108D"
+                                },
+                                {
+                                    "number": 45,
+                                    "schedule": [
+                                        {
+                                            "day": "Lunes",
+                                            "startTime": "12:31",
+                                            "endTime": "15:30"
+                                        }
+                                    ],
+                                    "room": "408E"
+                                }
+                            ]
+                        },
                         {
                             "professor": "RICARDO EDGARDO CERA MARTINEZ",
                             "groups": [
@@ -866,7 +874,7 @@
                                     "number": 44,
                                     "schedule": [
                                         {
-                                            "day": "Sabado",
+                                            "day": "Sábado",
                                             "startTime": "09:31",
                                             "endTime": "12:30"
                                         }
@@ -901,44 +909,6 @@
                                     "room": "AULA 15"
                                 }
                             ]
-                        },
-                        {
-                            "professor": "VILMA LUCIA RIAÑO GONZALEZ",
-                            "groups": [
-                                {
-                                    "number": 41,
-                                    "schedule": [
-                                        {
-                                            "day": "Jueves",
-                                            "startTime": "16:31",
-                                            "endTime": "19:30"
-                                        }
-                                    ],
-                                    "room": "304D"
-                                },
-                                {
-                                    "number": 42,
-                                    "schedule": [
-                                        {
-                                            "day": "Miercoles",
-                                            "startTime": "16:31",
-                                            "endTime": "19:30"
-                                        }
-                                    ],
-                                    "room": "108D"
-                                },
-                                {
-                                    "number": 45,
-                                    "schedule": [
-                                        {
-                                            "day": "Lunes",
-                                            "startTime": "12:31",
-                                            "endTime": "15:30"
-                                        }
-                                    ],
-                                    "room": "408E"
-                                }
-                            ]
                         }
                     ]
                 },
@@ -954,7 +924,7 @@
                                     "number": 41,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "10:31",
                                             "endTime": "12:30"
                                         }
@@ -965,7 +935,7 @@
                                     "number": 42,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "08:31",
                                             "endTime": "10:30"
                                         }
@@ -998,7 +968,7 @@
                                     "number": 45,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "15:31",
                                             "endTime": "17:30"
                                         }
@@ -1009,7 +979,7 @@
                                     "number": 46,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "13:31",
                                             "endTime": "15:30"
                                         }
@@ -1075,6 +1045,33 @@
                             ]
                         },
                         {
+                            "professor": "EDNA MARGARITA ACOSTA BALLESTAS",
+                            "groups": [
+                                {
+                                    "number": 43,
+                                    "schedule": [
+                                        {
+                                            "day": "Viernes",
+                                            "startTime": "08:31",
+                                            "endTime": "11:30"
+                                        }
+                                    ],
+                                    "room": "111 C.U"
+                                },
+                                {
+                                    "number": 47,
+                                    "schedule": [
+                                        {
+                                            "day": "Sábado",
+                                            "startTime": "08:31",
+                                            "endTime": "11:30"
+                                        }
+                                    ],
+                                    "room": "AULA 15"
+                                }
+                            ]
+                        },
+                        {
                             "professor": "ARACELY  ANGARITA MARTINEZ",
                             "groups": [
                                 {
@@ -1100,33 +1097,6 @@
                                     "room": "207E"
                                 }
                             ]
-                        },
-                        {
-                            "professor": "EDNA MARGARITA ACOSTA BALLESTAS",
-                            "groups": [
-                                {
-                                    "number": 43,
-                                    "schedule": [
-                                        {
-                                            "day": "Viernes",
-                                            "startTime": "08:31",
-                                            "endTime": "11:30"
-                                        }
-                                    ],
-                                    "room": "111 C.U"
-                                },
-                                {
-                                    "number": 47,
-                                    "schedule": [
-                                        {
-                                            "day": "Sabado",
-                                            "startTime": "08:31",
-                                            "endTime": "11:30"
-                                        }
-                                    ],
-                                    "room": "AULA 15"
-                                }
-                            ]
                         }
                     ]
                 },
@@ -1135,6 +1105,64 @@
                     "name": "TALLER DE RAZONAMIENTO CUANTITATIVO",
                     "semester": "1",
                     "teachers": [
+                        {
+                            "professor": "MARCOS ENRIQUE CASTAÑEDA OROZCO",
+                            "groups": [
+                                {
+                                    "number": 41,
+                                    "schedule": [
+                                        {
+                                            "day": "Lunes",
+                                            "startTime": "14:31",
+                                            "endTime": "16:30"
+                                        },
+                                        {
+                                            "day": "Miércoles",
+                                            "startTime": "15:31",
+                                            "endTime": "17:30"
+                                        }
+                                    ],
+                                    "room": "302E"
+                                },
+                                {
+                                    "number": 42,
+                                    "schedule": [
+                                        {
+                                            "day": "Lunes",
+                                            "startTime": "16:31",
+                                            "endTime": "18:30"
+                                        },
+                                        {
+                                            "day": "Miércoles",
+                                            "startTime": "13:31",
+                                            "endTime": "15:30"
+                                        }
+                                    ],
+                                    "room": "405E"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "JOSE JAIR CARDENAS CARMONA",
+                            "groups": [
+                                {
+                                    "number": 43,
+                                    "schedule": [
+                                        {
+                                            "day": "Martes",
+                                            "startTime": "14:31",
+                                            "endTime": "16:30"
+                                        },
+                                        {
+                                            "day": "Sábado",
+                                            "startTime": "09:31",
+                                            "endTime": "11:30"
+                                        }
+                                    ],
+                                    "room": "110 C.U"
+                                }
+                            ]
+                        },
                         {
                             "professor": "FLOR MILENA  RANGEL  MUNOZ",
                             "groups": [
@@ -1163,33 +1191,6 @@
                             ]
                         },
                         {
-                            "professor": "JOSE JAIR CARDENAS CARMONA",
-                            "groups": [
-                                {
-                                    "number": 43,
-                                    "schedule": [
-                                        {
-                                            "day": "Martes",
-                                            "startTime": "14:31",
-                                            "endTime": "16:30"
-                                        }
-                                    ],
-                                    "room": "110 C.U"
-                                },
-                                {
-                                    "number": 43,
-                                    "schedule": [
-                                        {
-                                            "day": "Sabado",
-                                            "startTime": "09:31",
-                                            "endTime": "11:30"
-                                        }
-                                    ],
-                                    "room": "101 C.U"
-                                }
-                            ]
-                        },
-                        {
                             "professor": "MANUEL EDUARDO PORRAS GARCIA",
                             "groups": [
                                 {
@@ -1199,20 +1200,14 @@
                                             "day": "Martes",
                                             "startTime": "14:31",
                                             "endTime": "16:30"
-                                        }
-                                    ],
-                                    "room": "215H"
-                                },
-                                {
-                                    "number": 45,
-                                    "schedule": [
+                                        },
                                         {
-                                            "day": "Sabado",
+                                            "day": "Sábado",
                                             "startTime": "10:31",
                                             "endTime": "12:30"
                                         }
                                     ],
-                                    "room": "205E"
+                                    "room": "215H"
                                 },
                                 {
                                     "number": 46,
@@ -1221,69 +1216,14 @@
                                             "day": "Martes",
                                             "startTime": "16:31",
                                             "endTime": "18:30"
-                                        }
-                                    ],
-                                    "room": "301H"
-                                },
-                                {
-                                    "number": 46,
-                                    "schedule": [
+                                        },
                                         {
-                                            "day": "Sabado",
+                                            "day": "Sábado",
                                             "startTime": "08:31",
                                             "endTime": "10:30"
                                         }
                                     ],
-                                    "room": "206E"
-                                }
-                            ]
-                        },
-                        {
-                            "professor": "MARCOS ENRIQUE CASTAÑEDA OROZCO",
-                            "groups": [
-                                {
-                                    "number": 41,
-                                    "schedule": [
-                                        {
-                                            "day": "Lunes",
-                                            "startTime": "14:31",
-                                            "endTime": "16:30"
-                                        }
-                                    ],
-                                    "room": "302E"
-                                },
-                                {
-                                    "number": 41,
-                                    "schedule": [
-                                        {
-                                            "day": "Miercoles",
-                                            "startTime": "15:31",
-                                            "endTime": "17:30"
-                                        }
-                                    ],
-                                    "room": "307E"
-                                },
-                                {
-                                    "number": 42,
-                                    "schedule": [
-                                        {
-                                            "day": "Lunes",
-                                            "startTime": "16:31",
-                                            "endTime": "18:30"
-                                        }
-                                    ],
-                                    "room": "405E"
-                                },
-                                {
-                                    "number": 42,
-                                    "schedule": [
-                                        {
-                                            "day": "Miercoles",
-                                            "startTime": "13:31",
-                                            "endTime": "15:30"
-                                        }
-                                    ],
-                                    "room": "307E"
+                                    "room": "301H"
                                 }
                             ]
                         }
@@ -1295,18 +1235,66 @@
                     "semester": "1",
                     "teachers": [
                         {
-                            "professor": "ALEXANDRA PEREZ RUBIO",
+                            "professor": "ROSAURA  MIRANDA PADILLA",
                             "groups": [
                                 {
-                                    "number": 47,
+                                    "number": 41,
+                                    "schedule": [
+                                        {
+                                            "day": "Miércoles",
+                                            "startTime": "06:31",
+                                            "endTime": "08:30"
+                                        }
+                                    ],
+                                    "room": "201E"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "ROSARIO DEL CARMEN CAEZ TURIZZO",
+                            "groups": [
+                                {
+                                    "number": 42,
                                     "schedule": [
                                         {
                                             "day": "Jueves",
+                                            "startTime": "06:31",
+                                            "endTime": "08:30"
+                                        }
+                                    ],
+                                    "room": "307A"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "MARÍA JOSÉ MONTES ROMERO",
+                            "groups": [
+                                {
+                                    "number": 43,
+                                    "schedule": [
+                                        {
+                                            "day": "Miércoles",
                                             "startTime": "08:31",
                                             "endTime": "10:30"
                                         }
                                     ],
-                                    "room": "AULA 15"
+                                    "room": "107 C.U"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "MARCOS ENRIQUE CASTAÑEDA OROZCO",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Viernes",
+                                            "startTime": "15:31",
+                                            "endTime": "17:30"
+                                        }
+                                    ],
+                                    "room": "AULA 4"
                                 }
                             ]
                         },
@@ -1338,66 +1326,18 @@
                             ]
                         },
                         {
-                            "professor": "MARCOS ENRIQUE CASTAÑEDA OROZCO",
+                            "professor": "ALEXANDRA PEREZ RUBIO",
                             "groups": [
                                 {
-                                    "number": 44,
+                                    "number": 47,
                                     "schedule": [
                                         {
-                                            "day": "Viernes",
-                                            "startTime": "15:31",
-                                            "endTime": "17:30"
-                                        }
-                                    ],
-                                    "room": "AULA 4"
-                                }
-                            ]
-                        },
-                        {
-                            "professor": "MARÍA JOSÉ MONTES ROMERO",
-                            "groups": [
-                                {
-                                    "number": 43,
-                                    "schedule": [
-                                        {
-                                            "day": "Miercoles",
+                                            "day": "Jueves",
                                             "startTime": "08:31",
                                             "endTime": "10:30"
                                         }
                                     ],
-                                    "room": "107 C.U"
-                                }
-                            ]
-                        },
-                        {
-                            "professor": "ROSARIO DEL CARMEN CAEZ TURIZZO",
-                            "groups": [
-                                {
-                                    "number": 42,
-                                    "schedule": [
-                                        {
-                                            "day": "Jueves",
-                                            "startTime": "06:31",
-                                            "endTime": "08:30"
-                                        }
-                                    ],
-                                    "room": "307A"
-                                }
-                            ]
-                        },
-                        {
-                            "professor": "ROSAURA  MIRANDA PADILLA",
-                            "groups": [
-                                {
-                                    "number": 41,
-                                    "schedule": [
-                                        {
-                                            "day": "Miercoles",
-                                            "startTime": "06:31",
-                                            "endTime": "08:30"
-                                        }
-                                    ],
-                                    "room": "201E"
+                                    "room": "AULA 15"
                                 }
                             ]
                         }
@@ -1414,50 +1354,18 @@
                     "semester": "2",
                     "teachers": [
                         {
-                            "professor": "ALEXANDRA PEREZ RUBIO",
-                            "groups": [
-                                {
-                                    "number": 43,
-                                    "schedule": [
-                                        {
-                                            "day": "Martes",
-                                            "startTime": "08:31",
-                                            "endTime": "10:30"
-                                        }
-                                    ],
-                                    "room": "102 C.U"
-                                }
-                            ]
-                        },
-                        {
                             "professor": "CAROLINA CECILIA DE LA HOZ CAMPO",
                             "groups": [
                                 {
                                     "number": 41,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "06:31",
                                             "endTime": "08:30"
                                         }
                                     ],
                                     "room": "402H"
-                                }
-                            ]
-                        },
-                        {
-                            "professor": "ISAURA MARCELA RIVEIRA ALVAREZ",
-                            "groups": [
-                                {
-                                    "number": 47,
-                                    "schedule": [
-                                        {
-                                            "day": "Sabado",
-                                            "startTime": "07:31",
-                                            "endTime": "09:30"
-                                        }
-                                    ],
-                                    "room": "AULA 14"
                                 }
                             ]
                         },
@@ -1490,7 +1398,7 @@
                                     "number": 45,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "08:31",
                                             "endTime": "10:30"
                                         }
@@ -1509,6 +1417,38 @@
                                     "room": "307E"
                                 }
                             ]
+                        },
+                        {
+                            "professor": "ALEXANDRA PEREZ RUBIO",
+                            "groups": [
+                                {
+                                    "number": 43,
+                                    "schedule": [
+                                        {
+                                            "day": "Martes",
+                                            "startTime": "08:31",
+                                            "endTime": "10:30"
+                                        }
+                                    ],
+                                    "room": "102 C.U"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "ISAURA MARCELA RIVEIRA ALVAREZ",
+                            "groups": [
+                                {
+                                    "number": 47,
+                                    "schedule": [
+                                        {
+                                            "day": "Sábado",
+                                            "startTime": "07:31",
+                                            "endTime": "09:30"
+                                        }
+                                    ],
+                                    "room": "AULA 14"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1517,77 +1457,6 @@
                     "name": "TALLER DE INGLES I",
                     "semester": "2",
                     "teachers": [
-                        {
-                            "professor": "ASIGNAR DOCENTE",
-                            "groups": [
-                                {
-                                    "number": 43,
-                                    "schedule": [
-                                        {
-                                            "day": "Viernes",
-                                            "startTime": "08:31",
-                                            "endTime": "11:30"
-                                        }
-                                    ],
-                                    "room": "113 C.U"
-                                },
-                                {
-                                    "number": 43,
-                                    "schedule": [
-                                        {
-                                            "day": "Sabado",
-                                            "startTime": "11:31",
-                                            "endTime": "14:30"
-                                        }
-                                    ],
-                                    "room": "AUDIOVIS1"
-                                },
-                                {
-                                    "number": 45,
-                                    "schedule": [
-                                        {
-                                            "day": "Martes",
-                                            "startTime": "09:31",
-                                            "endTime": "12:30"
-                                        }
-                                    ],
-                                    "room": "503H"
-                                },
-                                {
-                                    "number": 45,
-                                    "schedule": [
-                                        {
-                                            "day": "Viernes",
-                                            "startTime": "14:31",
-                                            "endTime": "17:30"
-                                        }
-                                    ],
-                                    "room": "507H"
-                                },
-                                {
-                                    "number": 46,
-                                    "schedule": [
-                                        {
-                                            "day": "Lunes",
-                                            "startTime": "06:31",
-                                            "endTime": "09:30"
-                                        }
-                                    ],
-                                    "room": "503H"
-                                },
-                                {
-                                    "number": 46,
-                                    "schedule": [
-                                        {
-                                            "day": "Martes",
-                                            "startTime": "06:31",
-                                            "endTime": "09:30"
-                                        }
-                                    ],
-                                    "room": "503H"
-                                }
-                            ]
-                        },
                         {
                             "professor": "CARMEN MARIA ESTRADA CAMARGO",
                             "groups": [
@@ -1598,69 +1467,14 @@
                                             "day": "Jueves",
                                             "startTime": "12:31",
                                             "endTime": "16:30"
-                                        }
-                                    ],
-                                    "room": "407E"
-                                },
-                                {
-                                    "number": 41,
-                                    "schedule": [
+                                        },
                                         {
                                             "day": "Viernes",
                                             "startTime": "10:31",
                                             "endTime": "12:30"
                                         }
                                     ],
-                                    "room": "406D"
-                                }
-                            ]
-                        },
-                        {
-                            "professor": "GLORIA MARCELA RÚA RODRÍGUEZ",
-                            "groups": [
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Lunes",
-                                            "startTime": "14:31",
-                                            "endTime": "17:30"
-                                        }
-                                    ],
-                                    "room": "AULA 3"
-                                },
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Jueves",
-                                            "startTime": "14:31",
-                                            "endTime": "17:30"
-                                        }
-                                    ],
-                                    "room": "AULA 3"
-                                },
-                                {
-                                    "number": 47,
-                                    "schedule": [
-                                        {
-                                            "day": "Martes",
-                                            "startTime": "14:31",
-                                            "endTime": "17:30"
-                                        }
-                                    ],
-                                    "room": "AULA 13"
-                                },
-                                {
-                                    "number": 47,
-                                    "schedule": [
-                                        {
-                                            "day": "Viernes",
-                                            "startTime": "14:31",
-                                            "endTime": "17:30"
-                                        }
-                                    ],
-                                    "room": "AULA 16"
+                                    "room": "407E"
                                 }
                             ]
                         },
@@ -1674,20 +1488,104 @@
                                             "day": "Martes",
                                             "startTime": "18:31",
                                             "endTime": "21:30"
-                                        }
-                                    ],
-                                    "room": "201H"
-                                },
-                                {
-                                    "number": 42,
-                                    "schedule": [
+                                        },
                                         {
                                             "day": "Jueves",
                                             "startTime": "15:31",
                                             "endTime": "18:30"
                                         }
                                     ],
-                                    "room": "505H"
+                                    "room": "201H"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "ASIGNAR DOCENTE",
+                            "groups": [
+                                {
+                                    "number": 43,
+                                    "schedule": [
+                                        {
+                                            "day": "Viernes",
+                                            "startTime": "08:31",
+                                            "endTime": "11:30"
+                                        },
+                                        {
+                                            "day": "Sábado",
+                                            "startTime": "11:31",
+                                            "endTime": "14:30"
+                                        }
+                                    ],
+                                    "room": "113 C.U"
+                                },
+                                {
+                                    "number": 45,
+                                    "schedule": [
+                                        {
+                                            "day": "Martes",
+                                            "startTime": "09:31",
+                                            "endTime": "12:30"
+                                        },
+                                        {
+                                            "day": "Viernes",
+                                            "startTime": "14:31",
+                                            "endTime": "17:30"
+                                        }
+                                    ],
+                                    "room": "503H"
+                                },
+                                {
+                                    "number": 46,
+                                    "schedule": [
+                                        {
+                                            "day": "Lunes",
+                                            "startTime": "06:31",
+                                            "endTime": "09:30"
+                                        },
+                                        {
+                                            "day": "Martes",
+                                            "startTime": "06:31",
+                                            "endTime": "09:30"
+                                        }
+                                    ],
+                                    "room": "503H"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "GLORIA MARCELA RÚA RODRÍGUEZ",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Lunes",
+                                            "startTime": "14:31",
+                                            "endTime": "17:30"
+                                        },
+                                        {
+                                            "day": "Jueves",
+                                            "startTime": "14:31",
+                                            "endTime": "17:30"
+                                        }
+                                    ],
+                                    "room": "AULA 3"
+                                },
+                                {
+                                    "number": 47,
+                                    "schedule": [
+                                        {
+                                            "day": "Martes",
+                                            "startTime": "14:31",
+                                            "endTime": "17:30"
+                                        },
+                                        {
+                                            "day": "Viernes",
+                                            "startTime": "14:31",
+                                            "endTime": "17:30"
+                                        }
+                                    ],
+                                    "room": "AULA 13"
                                 }
                             ]
                         }
@@ -1698,22 +1596,6 @@
                     "name": "FUNDAMENTOS DE INVESTIGACION EN CIENCIAS",
                     "semester": "2",
                     "teachers": [
-                        {
-                            "professor": "DIANA SEVERINA SANTAMARIA HERNANDEZ",
-                            "groups": [
-                                {
-                                    "number": 43,
-                                    "schedule": [
-                                        {
-                                            "day": "Lunes",
-                                            "startTime": "09:31",
-                                            "endTime": "11:30"
-                                        }
-                                    ],
-                                    "room": "114 C.U"
-                                }
-                            ]
-                        },
                         {
                             "professor": "LEONARDO  CELIS ROYET",
                             "groups": [
@@ -1742,6 +1624,38 @@
                             ]
                         },
                         {
+                            "professor": "DIANA SEVERINA SANTAMARIA HERNANDEZ",
+                            "groups": [
+                                {
+                                    "number": 43,
+                                    "schedule": [
+                                        {
+                                            "day": "Lunes",
+                                            "startTime": "09:31",
+                                            "endTime": "11:30"
+                                        }
+                                    ],
+                                    "room": "114 C.U"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "RICARDO EDGARDO CERA MARTINEZ",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Sábado",
+                                            "startTime": "07:31",
+                                            "endTime": "09:30"
+                                        }
+                                    ],
+                                    "room": "AULA 1"
+                                }
+                            ]
+                        },
+                        {
                             "professor": "RAFAEL F. OYAGA MARTINEZ",
                             "groups": [
                                 {
@@ -1759,7 +1673,7 @@
                                     "number": 46,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "12:31",
                                             "endTime": "14:30"
                                         }
@@ -1770,28 +1684,12 @@
                                     "number": 47,
                                     "schedule": [
                                         {
-                                            "day": "Sabado",
+                                            "day": "Sábado",
                                             "startTime": "09:31",
                                             "endTime": "11:30"
                                         }
                                     ],
                                     "room": "AULA 14"
-                                }
-                            ]
-                        },
-                        {
-                            "professor": "RICARDO EDGARDO CERA MARTINEZ",
-                            "groups": [
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Sabado",
-                                            "startTime": "07:31",
-                                            "endTime": "09:30"
-                                        }
-                                    ],
-                                    "room": "AULA 1"
                                 }
                             ]
                         }
@@ -1803,18 +1701,29 @@
                     "semester": "2",
                     "teachers": [
                         {
-                            "professor": "FRANCISCO QUINTERO",
+                            "professor": "MARTHA LUZ ORTIZ PADILLA",
                             "groups": [
                                 {
-                                    "number": 46,
+                                    "number": 41,
                                     "schedule": [
                                         {
                                             "day": "Martes",
-                                            "startTime": "12:31",
-                                            "endTime": "14:30"
+                                            "startTime": "16:31",
+                                            "endTime": "18:30"
                                         }
                                     ],
-                                    "room": "309H"
+                                    "room": "401E"
+                                },
+                                {
+                                    "number": 42,
+                                    "schedule": [
+                                        {
+                                            "day": "Viernes",
+                                            "startTime": "08:31",
+                                            "endTime": "10:30"
+                                        }
+                                    ],
+                                    "room": "207E"
                                 }
                             ]
                         },
@@ -1878,29 +1787,18 @@
                             ]
                         },
                         {
-                            "professor": "MARTHA LUZ ORTIZ PADILLA",
+                            "professor": "FRANCISCO QUINTERO",
                             "groups": [
                                 {
-                                    "number": 41,
+                                    "number": 46,
                                     "schedule": [
                                         {
                                             "day": "Martes",
-                                            "startTime": "16:31",
-                                            "endTime": "18:30"
+                                            "startTime": "12:31",
+                                            "endTime": "14:30"
                                         }
                                     ],
-                                    "room": "401E"
-                                },
-                                {
-                                    "number": 42,
-                                    "schedule": [
-                                        {
-                                            "day": "Viernes",
-                                            "startTime": "08:31",
-                                            "endTime": "10:30"
-                                        }
-                                    ],
-                                    "room": "207E"
+                                    "room": "309H"
                                 }
                             ]
                         }
@@ -1911,38 +1809,6 @@
                     "name": "TENDENCIAS Y PRINCIPIOS DE LA EDUCACION INF",
                     "semester": "2",
                     "teachers": [
-                        {
-                            "professor": "ALEXANDRA PEREZ RUBIO",
-                            "groups": [
-                                {
-                                    "number": 47,
-                                    "schedule": [
-                                        {
-                                            "day": "Jueves",
-                                            "startTime": "10:31",
-                                            "endTime": "12:30"
-                                        }
-                                    ],
-                                    "room": "AULA 19"
-                                }
-                            ]
-                        },
-                        {
-                            "professor": "ATALA DEL CARMEN OCHOA TORRENEGRA",
-                            "groups": [
-                                {
-                                    "number": 42,
-                                    "schedule": [
-                                        {
-                                            "day": "Miercoles",
-                                            "startTime": "18:31",
-                                            "endTime": "20:30"
-                                        }
-                                    ],
-                                    "room": "405E"
-                                }
-                            ]
-                        },
                         {
                             "professor": "CARLOS MARIO RAMOS GELVEZ",
                             "groups": [
@@ -1956,6 +1822,22 @@
                                         }
                                     ],
                                     "room": "306E"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "ATALA DEL CARMEN OCHOA TORRENEGRA",
+                            "groups": [
+                                {
+                                    "number": 42,
+                                    "schedule": [
+                                        {
+                                            "day": "Miércoles",
+                                            "startTime": "18:31",
+                                            "endTime": "20:30"
+                                        }
+                                    ],
+                                    "room": "405E"
                                 }
                             ]
                         },
@@ -1987,13 +1869,29 @@
                             ]
                         },
                         {
+                            "professor": "MAIRA MANCILLA BASTIDAS",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Viernes",
+                                            "startTime": "10:31",
+                                            "endTime": "12:30"
+                                        }
+                                    ],
+                                    "room": "AULA 19"
+                                }
+                            ]
+                        },
+                        {
                             "professor": "LUCIANA  PERTUZ ALTAMIRANDA",
                             "groups": [
                                 {
                                     "number": 45,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "16:31",
                                             "endTime": "18:30"
                                         }
@@ -2003,13 +1901,13 @@
                             ]
                         },
                         {
-                            "professor": "MAIRA MANCILLA BASTIDAS",
+                            "professor": "ALEXANDRA PEREZ RUBIO",
                             "groups": [
                                 {
-                                    "number": 44,
+                                    "number": 47,
                                     "schedule": [
                                         {
-                                            "day": "Viernes",
+                                            "day": "Jueves",
                                             "startTime": "10:31",
                                             "endTime": "12:30"
                                         }
@@ -2070,7 +1968,7 @@
                                     "number": 43,
                                     "schedule": [
                                         {
-                                            "day": "Sabado",
+                                            "day": "Sábado",
                                             "startTime": "08:31",
                                             "endTime": "11:30"
                                         }
@@ -2103,7 +2001,7 @@
                                     "number": 47,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "09:31",
                                             "endTime": "12:30"
                                         }
@@ -2120,45 +2018,13 @@
                     "semester": "2",
                     "teachers": [
                         {
-                            "professor": "ADRIANA DEL ROSARIO PINEDA ROBAYO",
-                            "groups": [
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Miercoles",
-                                            "startTime": "14:31",
-                                            "endTime": "16:30"
-                                        }
-                                    ],
-                                    "room": "AULA 8"
-                                }
-                            ]
-                        },
-                        {
-                            "professor": "ANDREA DEL PILAR LIZCANO SANCHEZ",
-                            "groups": [
-                                {
-                                    "number": 47,
-                                    "schedule": [
-                                        {
-                                            "day": "Martes",
-                                            "startTime": "10:31",
-                                            "endTime": "12:30"
-                                        }
-                                    ],
-                                    "room": "AULA 13"
-                                }
-                            ]
-                        },
-                        {
                             "professor": "BRANDON ALFONSO TAPIERO PEREZ",
                             "groups": [
                                 {
                                     "number": 41,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "10:31",
                                             "endTime": "12:30"
                                         }
@@ -2168,29 +2034,18 @@
                             ]
                         },
                         {
-                            "professor": "CARLOS MARIO RAMOS GELVEZ",
+                            "professor": "FERNANDO  ABELLO JIMENEZ",
                             "groups": [
                                 {
-                                    "number": 45,
+                                    "number": 42,
                                     "schedule": [
                                         {
-                                            "day": "Sabado",
-                                            "startTime": "10:31",
-                                            "endTime": "12:30"
+                                            "day": "Jueves",
+                                            "startTime": "08:31",
+                                            "endTime": "10:30"
                                         }
                                     ],
-                                    "room": "303E"
-                                },
-                                {
-                                    "number": 46,
-                                    "schedule": [
-                                        {
-                                            "day": "Viernes",
-                                            "startTime": "06:31",
-                                            "endTime": "08:30"
-                                        }
-                                    ],
-                                    "room": "203E"
+                                    "room": "404D"
                                 }
                             ]
                         },
@@ -2211,18 +2066,61 @@
                             ]
                         },
                         {
-                            "professor": "FERNANDO  ABELLO JIMENEZ",
+                            "professor": "ADRIANA DEL ROSARIO PINEDA ROBAYO",
                             "groups": [
                                 {
-                                    "number": 42,
+                                    "number": 44,
                                     "schedule": [
                                         {
-                                            "day": "Jueves",
-                                            "startTime": "08:31",
-                                            "endTime": "10:30"
+                                            "day": "Miércoles",
+                                            "startTime": "14:31",
+                                            "endTime": "16:30"
                                         }
                                     ],
-                                    "room": "404D"
+                                    "room": "AULA 8"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "CARLOS MARIO RAMOS GELVEZ",
+                            "groups": [
+                                {
+                                    "number": 45,
+                                    "schedule": [
+                                        {
+                                            "day": "Sábado",
+                                            "startTime": "10:31",
+                                            "endTime": "12:30"
+                                        }
+                                    ],
+                                    "room": "303E"
+                                },
+                                {
+                                    "number": 46,
+                                    "schedule": [
+                                        {
+                                            "day": "Viernes",
+                                            "startTime": "06:31",
+                                            "endTime": "08:30"
+                                        }
+                                    ],
+                                    "room": "203E"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "ANDREA DEL PILAR LIZCANO SANCHEZ",
+                            "groups": [
+                                {
+                                    "number": 47,
+                                    "schedule": [
+                                        {
+                                            "day": "Martes",
+                                            "startTime": "10:31",
+                                            "endTime": "12:30"
+                                        }
+                                    ],
+                                    "room": "AULA 13"
                                 }
                             ]
                         }
@@ -2238,22 +2136,6 @@
                     "name": "MODELOS Y TENDENCIAS PEDAGOGICAS CONTE",
                     "semester": "3",
                     "teachers": [
-                        {
-                            "professor": "ALEXANDRA PEREZ RUBIO",
-                            "groups": [
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Jueves",
-                                            "startTime": "13:31",
-                                            "endTime": "15:30"
-                                        }
-                                    ],
-                                    "room": "AULA 16"
-                                }
-                            ]
-                        },
                         {
                             "professor": "CARLOS MARIO RAMOS GELVEZ",
                             "groups": [
@@ -2272,12 +2154,28 @@
                                     "number": 42,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "16:31",
                                             "endTime": "18:30"
                                         }
                                     ],
                                     "room": "305E"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "ALEXANDRA PEREZ RUBIO",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Jueves",
+                                            "startTime": "13:31",
+                                            "endTime": "15:30"
+                                        }
+                                    ],
+                                    "room": "AULA 16"
                                 }
                             ]
                         }
@@ -2288,22 +2186,6 @@
                     "name": "DESARROLLO HUMANO: PROCESOS",
                     "semester": "3",
                     "teachers": [
-                        {
-                            "professor": "BONILYN DEL CARMEN PAEZ DE LA CRUZ",
-                            "groups": [
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Miercoles",
-                                            "startTime": "08:31",
-                                            "endTime": "10:30"
-                                        }
-                                    ],
-                                    "room": "AULA 4"
-                                }
-                            ]
-                        },
                         {
                             "professor": "MARCO  TURBAY ILLUECA",
                             "groups": [
@@ -2330,6 +2212,22 @@
                                     "room": "404E"
                                 }
                             ]
+                        },
+                        {
+                            "professor": "BONILYN DEL CARMEN PAEZ DE LA CRUZ",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Miércoles",
+                                            "startTime": "08:31",
+                                            "endTime": "10:30"
+                                        }
+                                    ],
+                                    "room": "AULA 4"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -2345,50 +2243,17 @@
                                     "number": 41,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "18:31",
                                             "endTime": "21:30"
-                                        }
-                                    ],
-                                    "room": "301E"
-                                },
-                                {
-                                    "number": 41,
-                                    "schedule": [
+                                        },
                                         {
-                                            "day": "Sabado",
+                                            "day": "Sábado",
                                             "startTime": "09:31",
                                             "endTime": "12:30"
                                         }
                                     ],
-                                    "room": "404D"
-                                }
-                            ]
-                        },
-                        {
-                            "professor": "GLORIA MARCELA RÚA RODRÍGUEZ",
-                            "groups": [
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Martes",
-                                            "startTime": "14:31",
-                                            "endTime": "17:30"
-                                        }
-                                    ],
-                                    "room": "AULA 6"
-                                },
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Viernes",
-                                            "startTime": "14:31",
-                                            "endTime": "17:30"
-                                        }
-                                    ],
-                                    "room": "AULA 6"
+                                    "room": "301E"
                                 }
                             ]
                         },
@@ -2402,20 +2267,35 @@
                                             "day": "Lunes",
                                             "startTime": "18:31",
                                             "endTime": "21:30"
-                                        }
-                                    ],
-                                    "room": "303E"
-                                },
-                                {
-                                    "number": 42,
-                                    "schedule": [
+                                        },
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "18:31",
                                             "endTime": "21:30"
                                         }
                                     ],
-                                    "room": "204D"
+                                    "room": "303E"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "GLORIA MARCELA RÚA RODRÍGUEZ",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Martes",
+                                            "startTime": "14:31",
+                                            "endTime": "17:30"
+                                        },
+                                        {
+                                            "day": "Viernes",
+                                            "startTime": "14:31",
+                                            "endTime": "17:30"
+                                        }
+                                    ],
+                                    "room": "AULA 6"
                                 }
                             ]
                         }
@@ -2426,6 +2306,22 @@
                     "name": "BASES NEUROPSICOBIOLOGICAS DEL COMPORTA",
                     "semester": "3",
                     "teachers": [
+                        {
+                            "professor": "MIRYAM JOSEFA JINETE DE LA ROSA",
+                            "groups": [
+                                {
+                                    "number": 41,
+                                    "schedule": [
+                                        {
+                                            "day": "Miércoles",
+                                            "startTime": "15:31",
+                                            "endTime": "18:30"
+                                        }
+                                    ],
+                                    "room": "215H"
+                                }
+                            ]
+                        },
                         {
                             "professor": "LEIVIS ROSSANA JIMENEZ PACHECO",
                             "groups": [
@@ -2444,28 +2340,12 @@
                                     "number": 44,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "12:31",
                                             "endTime": "15:30"
                                         }
                                     ],
                                     "room": "AULA 9"
-                                }
-                            ]
-                        },
-                        {
-                            "professor": "MIRYAM JOSEFA JINETE DE LA ROSA",
-                            "groups": [
-                                {
-                                    "number": 41,
-                                    "schedule": [
-                                        {
-                                            "day": "Miercoles",
-                                            "startTime": "15:31",
-                                            "endTime": "18:30"
-                                        }
-                                    ],
-                                    "room": "215H"
                                 }
                             ]
                         }
@@ -2476,22 +2356,6 @@
                     "name": "INVESTIGACION PEDAGOGICA",
                     "semester": "3",
                     "teachers": [
-                        {
-                            "professor": "LUIS ALFREDO GÓMEZ LINARES",
-                            "groups": [
-                                {
-                                    "number": 42,
-                                    "schedule": [
-                                        {
-                                            "day": "Martes",
-                                            "startTime": "14:31",
-                                            "endTime": "16:30"
-                                        }
-                                    ],
-                                    "room": "307E"
-                                }
-                            ]
-                        },
                         {
                             "professor": "RAFAEL F. OYAGA MARTINEZ",
                             "groups": [
@@ -2510,12 +2374,28 @@
                                     "number": 44,
                                     "schedule": [
                                         {
-                                            "day": "Sabado",
+                                            "day": "Sábado",
                                             "startTime": "07:31",
                                             "endTime": "09:30"
                                         }
                                     ],
                                     "room": "AULA 2"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "LUIS ALFREDO GÓMEZ LINARES",
+                            "groups": [
+                                {
+                                    "number": 42,
+                                    "schedule": [
+                                        {
+                                            "day": "Martes",
+                                            "startTime": "14:31",
+                                            "endTime": "16:30"
+                                        }
+                                    ],
+                                    "room": "307E"
                                 }
                             ]
                         }
@@ -2526,22 +2406,6 @@
                     "name": "DIDACTICA DE LA EXPRESION TEATRAL",
                     "semester": "3",
                     "teachers": [
-                        {
-                            "professor": "ALFONSO ROBERTO ARZUZA GOMEZ",
-                            "groups": [
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Sabado",
-                                            "startTime": "11:31",
-                                            "endTime": "14:30"
-                                        }
-                                    ],
-                                    "room": "AULA 2"
-                                }
-                            ]
-                        },
                         {
                             "professor": "LIGIA  RINCON GOMEZ",
                             "groups": [
@@ -2566,6 +2430,22 @@
                                         }
                                     ],
                                     "room": "201F DANZ"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "ALFONSO ROBERTO ARZUZA GOMEZ",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Sábado",
+                                            "startTime": "11:31",
+                                            "endTime": "14:30"
+                                        }
+                                    ],
+                                    "room": "AULA 2"
                                 }
                             ]
                         }
@@ -2672,33 +2552,6 @@
                     "semester": "4",
                     "teachers": [
                         {
-                            "professor": "ANA  PRECIADO DUQUE",
-                            "groups": [
-                                {
-                                    "number": 42,
-                                    "schedule": [
-                                        {
-                                            "day": "Martes",
-                                            "startTime": "18:31",
-                                            "endTime": "21:30"
-                                        }
-                                    ],
-                                    "room": "507H"
-                                },
-                                {
-                                    "number": 42,
-                                    "schedule": [
-                                        {
-                                            "day": "Miercoles",
-                                            "startTime": "18:31",
-                                            "endTime": "21:30"
-                                        }
-                                    ],
-                                    "room": "507D"
-                                }
-                            ]
-                        },
-                        {
                             "professor": "GLADYS DEL CARMEN RODRIGUEZ VERGARA",
                             "groups": [
                                 {
@@ -2708,20 +2561,35 @@
                                             "day": "Jueves",
                                             "startTime": "18:31",
                                             "endTime": "21:30"
-                                        }
-                                    ],
-                                    "room": "307E"
-                                },
-                                {
-                                    "number": 41,
-                                    "schedule": [
+                                        },
                                         {
-                                            "day": "Sabado",
+                                            "day": "Sábado",
                                             "startTime": "09:31",
                                             "endTime": "12:30"
                                         }
                                     ],
-                                    "room": "305A"
+                                    "room": "307E"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "ANA  PRECIADO DUQUE",
+                            "groups": [
+                                {
+                                    "number": 42,
+                                    "schedule": [
+                                        {
+                                            "day": "Martes",
+                                            "startTime": "18:31",
+                                            "endTime": "21:30"
+                                        },
+                                        {
+                                            "day": "Miércoles",
+                                            "startTime": "18:31",
+                                            "endTime": "21:30"
+                                        }
+                                    ],
+                                    "room": "507H"
                                 }
                             ]
                         },
@@ -2735,20 +2603,14 @@
                                             "day": "Martes",
                                             "startTime": "15:31",
                                             "endTime": "18:30"
-                                        }
-                                    ],
-                                    "room": "AULA 1"
-                                },
-                                {
-                                    "number": 44,
-                                    "schedule": [
+                                        },
                                         {
                                             "day": "Jueves",
                                             "startTime": "14:31",
                                             "endTime": "17:30"
                                         }
                                     ],
-                                    "room": "AULA 7"
+                                    "room": "AULA 1"
                                 }
                             ]
                         }
@@ -2759,22 +2621,6 @@
                     "name": "DIMENSION Y PROCESO PSICOMOTRIZ EN LA PRI",
                     "semester": "4",
                     "teachers": [
-                        {
-                            "professor": "ANDREA DEL PILAR LIZCANO SANCHEZ",
-                            "groups": [
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Martes",
-                                            "startTime": "07:31",
-                                            "endTime": "10:30"
-                                        }
-                                    ],
-                                    "room": "AULA 7"
-                                }
-                            ]
-                        },
                         {
                             "professor": "OSCAR  RUEDA  PRADA",
                             "groups": [
@@ -2801,6 +2647,22 @@
                                     "room": "316H"
                                 }
                             ]
+                        },
+                        {
+                            "professor": "ANDREA DEL PILAR LIZCANO SANCHEZ",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Martes",
+                                            "startTime": "07:31",
+                                            "endTime": "10:30"
+                                        }
+                                    ],
+                                    "room": "AULA 7"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -2809,22 +2671,6 @@
                     "name": "DESARROLLO DEL LENGUAJE Y COMUNICACION",
                     "semester": "4",
                     "teachers": [
-                        {
-                            "professor": "BONILYN DEL CARMEN PAEZ DE LA CRUZ",
-                            "groups": [
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Miercoles",
-                                            "startTime": "15:31",
-                                            "endTime": "18:30"
-                                        }
-                                    ],
-                                    "room": "AULA 7"
-                                }
-                            ]
-                        },
                         {
                             "professor": "ROSA PATRICIA TRUJILLO MUÑOZ",
                             "groups": [
@@ -2851,6 +2697,22 @@
                                     "room": "307E"
                                 }
                             ]
+                        },
+                        {
+                            "professor": "BONILYN DEL CARMEN PAEZ DE LA CRUZ",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Miércoles",
+                                            "startTime": "15:31",
+                                            "endTime": "18:30"
+                                        }
+                                    ],
+                                    "room": "AULA 7"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -2859,22 +2721,6 @@
                     "name": "INVESTIGACION E INNOVACION EDUCATIVA EN E",
                     "semester": "4",
                     "teachers": [
-                        {
-                            "professor": "EDILBERTO  HART MONTES",
-                            "groups": [
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Viernes",
-                                            "startTime": "11:31",
-                                            "endTime": "13:30"
-                                        }
-                                    ],
-                                    "room": "AULA 11"
-                                }
-                            ]
-                        },
                         {
                             "professor": "JUAN ELADIO DE LA HOZ BLANCO",
                             "groups": [
@@ -2901,6 +2747,22 @@
                                     "room": "209H"
                                 }
                             ]
+                        },
+                        {
+                            "professor": "EDILBERTO  HART MONTES",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Viernes",
+                                            "startTime": "11:31",
+                                            "endTime": "13:30"
+                                        }
+                                    ],
+                                    "room": "AULA 11"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -2909,22 +2771,6 @@
                     "name": "DIDACTICA DE LA EXPRESION CORPORAL",
                     "semester": "4",
                     "teachers": [
-                        {
-                            "professor": "ALFONSO ROBERTO ARZUZA GOMEZ",
-                            "groups": [
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Lunes",
-                                            "startTime": "09:31",
-                                            "endTime": "12:30"
-                                        }
-                                    ],
-                                    "room": "AULA 7"
-                                }
-                            ]
-                        },
                         {
                             "professor": "ZULLY KATHERINE OROZCO PEÑA",
                             "groups": [
@@ -2951,6 +2797,22 @@
                                     "room": "202F DANZ"
                                 }
                             ]
+                        },
+                        {
+                            "professor": "ALFONSO ROBERTO ARZUZA GOMEZ",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Lunes",
+                                            "startTime": "09:31",
+                                            "endTime": "12:30"
+                                        }
+                                    ],
+                                    "room": "AULA 7"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -2959,6 +2821,38 @@
                     "name": "BASES NEUROPSICOPEDAGOGICAS DEL APRENDI",
                     "semester": "4",
                     "teachers": [
+                        {
+                            "professor": "MARCO AURELIO VENEGAS POLO",
+                            "groups": [
+                                {
+                                    "number": 41,
+                                    "schedule": [
+                                        {
+                                            "day": "Miércoles",
+                                            "startTime": "18:31",
+                                            "endTime": "20:30"
+                                        }
+                                    ],
+                                    "room": "215H"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "MANUEL  CONSUEGRA ALGARIN",
+                            "groups": [
+                                {
+                                    "number": 42,
+                                    "schedule": [
+                                        {
+                                            "day": "Miércoles",
+                                            "startTime": "16:31",
+                                            "endTime": "18:30"
+                                        }
+                                    ],
+                                    "room": "405H"
+                                }
+                            ]
+                        },
                         {
                             "professor": "JOSE MANUEL FLOYD QUINTERO",
                             "groups": [
@@ -2972,38 +2866,6 @@
                                         }
                                     ],
                                     "room": "AULA 11"
-                                }
-                            ]
-                        },
-                        {
-                            "professor": "MANUEL  CONSUEGRA ALGARIN",
-                            "groups": [
-                                {
-                                    "number": 42,
-                                    "schedule": [
-                                        {
-                                            "day": "Miercoles",
-                                            "startTime": "16:31",
-                                            "endTime": "18:30"
-                                        }
-                                    ],
-                                    "room": "405H"
-                                }
-                            ]
-                        },
-                        {
-                            "professor": "MARCO AURELIO VENEGAS POLO",
-                            "groups": [
-                                {
-                                    "number": 41,
-                                    "schedule": [
-                                        {
-                                            "day": "Miercoles",
-                                            "startTime": "18:31",
-                                            "endTime": "20:30"
-                                        }
-                                    ],
-                                    "room": "215H"
                                 }
                             ]
                         }
@@ -3029,20 +2891,14 @@
                                             "day": "Lunes",
                                             "startTime": "12:31",
                                             "endTime": "15:30"
-                                        }
-                                    ],
-                                    "room": "315H"
-                                },
-                                {
-                                    "number": 41,
-                                    "schedule": [
+                                        },
                                         {
                                             "day": "Jueves",
                                             "startTime": "12:31",
                                             "endTime": "15:30"
                                         }
                                     ],
-                                    "room": "205H"
+                                    "room": "315H"
                                 }
                             ]
                         },
@@ -3056,20 +2912,14 @@
                                             "day": "Lunes",
                                             "startTime": "12:31",
                                             "endTime": "15:30"
-                                        }
-                                    ],
-                                    "room": "308E"
-                                },
-                                {
-                                    "number": 42,
-                                    "schedule": [
+                                        },
                                         {
                                             "day": "Viernes",
                                             "startTime": "12:31",
                                             "endTime": "15:30"
                                         }
                                     ],
-                                    "room": "401E"
+                                    "room": "308E"
                                 }
                             ]
                         },
@@ -3083,15 +2933,9 @@
                                             "day": "Martes",
                                             "startTime": "14:31",
                                             "endTime": "17:30"
-                                        }
-                                    ],
-                                    "room": "AULA 10"
-                                },
-                                {
-                                    "number": 44,
-                                    "schedule": [
+                                        },
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "14:31",
                                             "endTime": "17:30"
                                         }
@@ -3108,13 +2952,29 @@
                     "semester": "5",
                     "teachers": [
                         {
+                            "professor": "ZULMA DEL CARMEN SOLANO ESPARRAGOZA",
+                            "groups": [
+                                {
+                                    "number": 41,
+                                    "schedule": [
+                                        {
+                                            "day": "Jueves",
+                                            "startTime": "18:31",
+                                            "endTime": "21:30"
+                                        }
+                                    ],
+                                    "room": "402H"
+                                }
+                            ]
+                        },
+                        {
                             "professor": "JOSE MANUEL FLOYD QUINTERO",
                             "groups": [
                                 {
                                     "number": 42,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "18:31",
                                             "endTime": "21:30"
                                         }
@@ -3138,22 +2998,6 @@
                                     "room": "AULA 10"
                                 }
                             ]
-                        },
-                        {
-                            "professor": "ZULMA DEL CARMEN SOLANO ESPARRAGOZA",
-                            "groups": [
-                                {
-                                    "number": 41,
-                                    "schedule": [
-                                        {
-                                            "day": "Jueves",
-                                            "startTime": "18:31",
-                                            "endTime": "21:30"
-                                        }
-                                    ],
-                                    "room": "402H"
-                                }
-                            ]
                         }
                     ]
                 },
@@ -3162,22 +3006,6 @@
                     "name": "SEMINARIO DE PRACTICA EN EDUCACION INFANT",
                     "semester": "5",
                     "teachers": [
-                        {
-                            "professor": "NADIA KAREN AVILA MELENDEZ",
-                            "groups": [
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Lunes",
-                                            "startTime": "07:31",
-                                            "endTime": "12:30"
-                                        }
-                                    ],
-                                    "room": "SALA INFO"
-                                }
-                            ]
-                        },
                         {
                             "professor": "YOHANA CENITH  GARCIA ELGUEDO",
                             "groups": [
@@ -3188,13 +3016,7 @@
                                             "day": "Lunes",
                                             "startTime": "18:31",
                                             "endTime": "21:30"
-                                        }
-                                    ],
-                                    "room": "401E"
-                                },
-                                {
-                                    "number": 41,
-                                    "schedule": [
+                                        },
                                         {
                                             "day": "Viernes",
                                             "startTime": "18:31",
@@ -3210,20 +3032,30 @@
                                             "day": "Martes",
                                             "startTime": "18:31",
                                             "endTime": "21:30"
-                                        }
-                                    ],
-                                    "room": "311H"
-                                },
-                                {
-                                    "number": 42,
-                                    "schedule": [
+                                        },
                                         {
                                             "day": "Viernes",
                                             "startTime": "16:31",
                                             "endTime": "18:30"
                                         }
                                     ],
-                                    "room": "102H"
+                                    "room": "311H"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "NADIA KAREN AVILA MELENDEZ",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Lunes",
+                                            "startTime": "07:31",
+                                            "endTime": "12:30"
+                                        }
+                                    ],
+                                    "room": "SALA INFO"
                                 }
                             ]
                         }
@@ -3234,22 +3066,6 @@
                     "name": "DIDACTICA DE LA GRAFICOPLASTIA",
                     "semester": "5",
                     "teachers": [
-                        {
-                            "professor": "ALFONSO ROBERTO ARZUZA GOMEZ",
-                            "groups": [
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Sabado",
-                                            "startTime": "08:31",
-                                            "endTime": "11:30"
-                                        }
-                                    ],
-                                    "room": "AULA 10"
-                                }
-                            ]
-                        },
                         {
                             "professor": "LIGIA  RINCON GOMEZ",
                             "groups": [
@@ -3276,6 +3092,22 @@
                                     "room": "304F DIBU"
                                 }
                             ]
+                        },
+                        {
+                            "professor": "ALFONSO ROBERTO ARZUZA GOMEZ",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Sábado",
+                                            "startTime": "08:31",
+                                            "endTime": "11:30"
+                                        }
+                                    ],
+                                    "room": "AULA 10"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -3285,18 +3117,18 @@
                     "semester": "5",
                     "teachers": [
                         {
-                            "professor": "JOSE MANUEL FLOYD QUINTERO",
+                            "professor": "MIRYAM JOSEFA JINETE DE LA ROSA",
                             "groups": [
                                 {
-                                    "number": 44,
+                                    "number": 41,
                                     "schedule": [
                                         {
                                             "day": "Viernes",
-                                            "startTime": "10:31",
-                                            "endTime": "13:30"
+                                            "startTime": "13:31",
+                                            "endTime": "16:30"
                                         }
                                     ],
-                                    "room": "AULA 10"
+                                    "room": "207D"
                                 }
                             ]
                         },
@@ -3317,18 +3149,18 @@
                             ]
                         },
                         {
-                            "professor": "MIRYAM JOSEFA JINETE DE LA ROSA",
+                            "professor": "JOSE MANUEL FLOYD QUINTERO",
                             "groups": [
                                 {
-                                    "number": 41,
+                                    "number": 44,
                                     "schedule": [
                                         {
                                             "day": "Viernes",
-                                            "startTime": "13:31",
-                                            "endTime": "16:30"
+                                            "startTime": "10:31",
+                                            "endTime": "13:30"
                                         }
                                     ],
-                                    "room": "207D"
+                                    "room": "AULA 10"
                                 }
                             ]
                         }
@@ -3346,7 +3178,7 @@
                                     "number": 41,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "18:31",
                                             "endTime": "20:30"
                                         }
@@ -3357,7 +3189,7 @@
                                     "number": 42,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "14:31",
                                             "endTime": "16:30"
                                         }
@@ -3373,7 +3205,7 @@
                                     "number": 44,
                                     "schedule": [
                                         {
-                                            "day": "Sabado",
+                                            "day": "Sábado",
                                             "startTime": "12:31",
                                             "endTime": "14:30"
                                         }
@@ -3394,22 +3226,6 @@
                     "name": "EVALUACION E INTERVENCION DE LA POBLACION",
                     "semester": "6",
                     "teachers": [
-                        {
-                            "professor": "LEIVIS ROSSANA JIMENEZ PACHECO",
-                            "groups": [
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Miercoles",
-                                            "startTime": "08:31",
-                                            "endTime": "11:30"
-                                        }
-                                    ],
-                                    "room": "AULA 15"
-                                }
-                            ]
-                        },
                         {
                             "professor": "MIRYAM JOSEFA JINETE DE LA ROSA",
                             "groups": [
@@ -3436,6 +3252,22 @@
                                     "room": "315H"
                                 }
                             ]
+                        },
+                        {
+                            "professor": "LEIVIS ROSSANA JIMENEZ PACHECO",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Miércoles",
+                                            "startTime": "08:31",
+                                            "endTime": "11:30"
+                                        }
+                                    ],
+                                    "room": "AULA 15"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -3444,6 +3276,43 @@
                     "name": "SEMINARIO DE PRACTICA EN EDUCACION INFANT",
                     "semester": "6",
                     "teachers": [
+                        {
+                            "professor": "ANDREA CAROLINA VARGAS QUINTERO",
+                            "groups": [
+                                {
+                                    "number": 41,
+                                    "schedule": [
+                                        {
+                                            "day": "Lunes",
+                                            "startTime": "18:31",
+                                            "endTime": "20:30"
+                                        },
+                                        {
+                                            "day": "Viernes",
+                                            "startTime": "18:31",
+                                            "endTime": "21:30"
+                                        }
+                                    ],
+                                    "room": "202E"
+                                },
+                                {
+                                    "number": 42,
+                                    "schedule": [
+                                        {
+                                            "day": "Miércoles",
+                                            "startTime": "18:31",
+                                            "endTime": "20:30"
+                                        },
+                                        {
+                                            "day": "Martes",
+                                            "startTime": "18:31",
+                                            "endTime": "21:30"
+                                        }
+                                    ],
+                                    "room": "205E"
+                                }
+                            ]
+                        },
                         {
                             "professor": "ADRIANA DEL ROSARIO PINEDA ROBAYO",
                             "groups": [
@@ -3459,55 +3328,6 @@
                                     "room": "AULA 14"
                                 }
                             ]
-                        },
-                        {
-                            "professor": "ANDREA CAROLINA VARGAS QUINTERO",
-                            "groups": [
-                                {
-                                    "number": 41,
-                                    "schedule": [
-                                        {
-                                            "day": "Lunes",
-                                            "startTime": "18:31",
-                                            "endTime": "20:30"
-                                        }
-                                    ],
-                                    "room": "202E"
-                                },
-                                {
-                                    "number": 41,
-                                    "schedule": [
-                                        {
-                                            "day": "Viernes",
-                                            "startTime": "18:31",
-                                            "endTime": "21:30"
-                                        }
-                                    ],
-                                    "room": "204E"
-                                },
-                                {
-                                    "number": 42,
-                                    "schedule": [
-                                        {
-                                            "day": "Miercoles",
-                                            "startTime": "18:31",
-                                            "endTime": "21:30"
-                                        }
-                                    ],
-                                    "room": "205E"
-                                },
-                                {
-                                    "number": 42,
-                                    "schedule": [
-                                        {
-                                            "day": "Martes",
-                                            "startTime": "18:31",
-                                            "endTime": "20:30"
-                                        }
-                                    ],
-                                    "room": "403E"
-                                }
-                            ]
                         }
                     ]
                 },
@@ -3516,22 +3336,6 @@
                     "name": "LA LUDICA EN LA EDUCACION INFANTIL",
                     "semester": "6",
                     "teachers": [
-                        {
-                            "professor": "ALDO DE JESUS GONZALEZ PEÑARANDA",
-                            "groups": [
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Martes",
-                                            "startTime": "11:31",
-                                            "endTime": "14:30"
-                                        }
-                                    ],
-                                    "room": "AULA 15"
-                                }
-                            ]
-                        },
                         {
                             "professor": "BRYAN JOAQUIN ARRIETA NUÑEZ",
                             "groups": [
@@ -3558,14 +3362,7 @@
                                     "room": "305D"
                                 }
                             ]
-                        }
-                    ]
-                },
-                {
-                    "code": "300290",
-                    "name": "DIDACTICA DE LAS CIENCIAS SOCIALES",
-                    "semester": "6",
-                    "teachers": [
+                        },
                         {
                             "professor": "ALDO DE JESUS GONZALEZ PEÑARANDA",
                             "groups": [
@@ -3574,14 +3371,21 @@
                                     "schedule": [
                                         {
                                             "day": "Martes",
-                                            "startTime": "08:31",
-                                            "endTime": "11:30"
+                                            "startTime": "11:31",
+                                            "endTime": "14:30"
                                         }
                                     ],
                                     "room": "AULA 15"
                                 }
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "code": "300290",
+                    "name": "DIDACTICA DE LAS CIENCIAS SOCIALES",
+                    "semester": "6",
+                    "teachers": [
                         {
                             "professor": "JUAN ELADIO DE LA HOZ BLANCO",
                             "groups": [
@@ -3608,6 +3412,22 @@
                                     "room": "104H"
                                 }
                             ]
+                        },
+                        {
+                            "professor": "ALDO DE JESUS GONZALEZ PEÑARANDA",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Martes",
+                                            "startTime": "08:31",
+                                            "endTime": "11:30"
+                                        }
+                                    ],
+                                    "room": "AULA 15"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -3616,22 +3436,6 @@
                     "name": "ADMINISTRACION Y LEGISLACION EDUCATIVA",
                     "semester": "6",
                     "teachers": [
-                        {
-                            "professor": "ORI MERCADO",
-                            "groups": [
-                                {
-                                    "number": 42,
-                                    "schedule": [
-                                        {
-                                            "day": "Viernes",
-                                            "startTime": "16:31",
-                                            "endTime": "18:30"
-                                        }
-                                    ],
-                                    "room": "308E"
-                                }
-                            ]
-                        },
                         {
                             "professor": "RICARDO EDGARDO CERA MARTINEZ",
                             "groups": [
@@ -3650,12 +3454,28 @@
                                     "number": 44,
                                     "schedule": [
                                         {
-                                            "day": "Sabado",
+                                            "day": "Sábado",
                                             "startTime": "13:31",
                                             "endTime": "15:30"
                                         }
                                     ],
                                     "room": "AULA 14"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "ORI MERCADO",
+                            "groups": [
+                                {
+                                    "number": 42,
+                                    "schedule": [
+                                        {
+                                            "day": "Viernes",
+                                            "startTime": "16:31",
+                                            "endTime": "18:30"
+                                        }
+                                    ],
+                                    "room": "308E"
                                 }
                             ]
                         }
@@ -3673,28 +3493,12 @@
                                     "number": 41,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "06:31",
                                             "endTime": "08:30"
                                         }
                                     ],
                                     "room": "406D"
-                                }
-                            ]
-                        },
-                        {
-                            "professor": "HEILIANA ESTHER CORRO MENDOZA",
-                            "groups": [
-                                {
-                                    "number": 44,
-                                    "schedule": [
-                                        {
-                                            "day": "Viernes",
-                                            "startTime": "15:31",
-                                            "endTime": "17:30"
-                                        }
-                                    ],
-                                    "room": "AULA 14"
                                 }
                             ]
                         },
@@ -3711,6 +3515,22 @@
                                         }
                                     ],
                                     "room": "319H"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "HEILIANA ESTHER CORRO MENDOZA",
+                            "groups": [
+                                {
+                                    "number": 44,
+                                    "schedule": [
+                                        {
+                                            "day": "Viernes",
+                                            "startTime": "15:31",
+                                            "endTime": "17:30"
+                                        }
+                                    ],
+                                    "room": "AULA 14"
                                 }
                             ]
                         }
@@ -3736,20 +3556,14 @@
                                             "day": "Lunes",
                                             "startTime": "18:31",
                                             "endTime": "20:30"
-                                        }
-                                    ],
-                                    "room": "306E"
-                                },
-                                {
-                                    "number": 41,
-                                    "schedule": [
+                                        },
                                         {
                                             "day": "Jueves",
                                             "startTime": "18:31",
                                             "endTime": "21:30"
                                         }
                                     ],
-                                    "room": "202E"
+                                    "room": "306E"
                                 },
                                 {
                                     "number": 42,
@@ -3758,20 +3572,40 @@
                                             "day": "Martes",
                                             "startTime": "18:31",
                                             "endTime": "21:30"
-                                        }
-                                    ],
-                                    "room": "308E"
-                                },
-                                {
-                                    "number": 42,
-                                    "schedule": [
+                                        },
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "18:31",
                                             "endTime": "20:30"
                                         }
                                     ],
-                                    "room": "216H"
+                                    "room": "308E"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "PEGGY CECILIA DE LA HOZ BLANCO",
+                            "groups": [
+                                {
+                                    "number": 43,
+                                    "schedule": [
+                                        {
+                                            "day": "Lunes",
+                                            "startTime": "07:31",
+                                            "endTime": "09:30"
+                                        },
+                                        {
+                                            "day": "Lunes",
+                                            "startTime": "09:31",
+                                            "endTime": "10:30"
+                                        },
+                                        {
+                                            "day": "Lunes",
+                                            "startTime": "10:31",
+                                            "endTime": "12:30"
+                                        }
+                                    ],
+                                    "room": "115 C.U"
                                 }
                             ]
                         },
@@ -3790,44 +3624,6 @@
                                     "room": "AULA 16"
                                 }
                             ]
-                        },
-                        {
-                            "professor": "PEGGY CECILIA DE LA HOZ BLANCO",
-                            "groups": [
-                                {
-                                    "number": 43,
-                                    "schedule": [
-                                        {
-                                            "day": "Lunes",
-                                            "startTime": "07:31",
-                                            "endTime": "09:30"
-                                        }
-                                    ],
-                                    "room": "115 C.U"
-                                },
-                                {
-                                    "number": 43,
-                                    "schedule": [
-                                        {
-                                            "day": "Lunes",
-                                            "startTime": "09:31",
-                                            "endTime": "10:30"
-                                        }
-                                    ],
-                                    "room": "T 102"
-                                },
-                                {
-                                    "number": 43,
-                                    "schedule": [
-                                        {
-                                            "day": "Lunes",
-                                            "startTime": "10:31",
-                                            "endTime": "12:30"
-                                        }
-                                    ],
-                                    "room": "108 C.U"
-                                }
-                            ]
                         }
                     ]
                 },
@@ -3836,6 +3632,22 @@
                     "name": "LITERATURA INFANTIL",
                     "semester": "7",
                     "teachers": [
+                        {
+                            "professor": "YAMILE ASHLOY RAMIREZ SERNA",
+                            "groups": [
+                                {
+                                    "number": 41,
+                                    "schedule": [
+                                        {
+                                            "day": "Lunes",
+                                            "startTime": "16:31",
+                                            "endTime": "18:30"
+                                        }
+                                    ],
+                                    "room": "404E"
+                                }
+                            ]
+                        },
                         {
                             "professor": "ATALA DEL CARMEN OCHOA TORRENEGRA",
                             "groups": [
@@ -3849,22 +3661,6 @@
                                         }
                                     ],
                                     "room": "215H"
-                                }
-                            ]
-                        },
-                        {
-                            "professor": "MAIRA MANCILLA BASTIDAS",
-                            "groups": [
-                                {
-                                    "number": 47,
-                                    "schedule": [
-                                        {
-                                            "day": "Viernes",
-                                            "startTime": "08:31",
-                                            "endTime": "10:30"
-                                        }
-                                    ],
-                                    "room": "AULA 16"
                                 }
                             ]
                         },
@@ -3885,18 +3681,18 @@
                             ]
                         },
                         {
-                            "professor": "YAMILE ASHLOY RAMIREZ SERNA",
+                            "professor": "MAIRA MANCILLA BASTIDAS",
                             "groups": [
                                 {
-                                    "number": 41,
+                                    "number": 47,
                                     "schedule": [
                                         {
-                                            "day": "Lunes",
-                                            "startTime": "16:31",
-                                            "endTime": "18:30"
+                                            "day": "Viernes",
+                                            "startTime": "08:31",
+                                            "endTime": "10:30"
                                         }
                                     ],
-                                    "room": "404E"
+                                    "room": "AULA 16"
                                 }
                             ]
                         }
@@ -3941,7 +3737,7 @@
                                     "number": 43,
                                     "schedule": [
                                         {
-                                            "day": "Sabado",
+                                            "day": "Sábado",
                                             "startTime": "10:31",
                                             "endTime": "13:30"
                                         }
@@ -3969,22 +3765,6 @@
                     "semester": "7",
                     "teachers": [
                         {
-                            "professor": "DAYANA  GRANADOS CASTRO",
-                            "groups": [
-                                {
-                                    "number": 47,
-                                    "schedule": [
-                                        {
-                                            "day": "Sabado",
-                                            "startTime": "10:31",
-                                            "endTime": "13:30"
-                                        }
-                                    ],
-                                    "room": "AULA 18"
-                                }
-                            ]
-                        },
-                        {
                             "professor": "LUIS ALFREDO GÓMEZ LINARES",
                             "groups": [
                                 {
@@ -4002,7 +3782,7 @@
                                     "number": 42,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "14:31",
                                             "endTime": "17:30"
                                         }
@@ -4013,12 +3793,28 @@
                                     "number": 43,
                                     "schedule": [
                                         {
-                                            "day": "Sabado",
+                                            "day": "Sábado",
                                             "startTime": "07:31",
                                             "endTime": "10:30"
                                         }
                                     ],
                                     "room": "109 C.U"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "DAYANA  GRANADOS CASTRO",
+                            "groups": [
+                                {
+                                    "number": 47,
+                                    "schedule": [
+                                        {
+                                            "day": "Sábado",
+                                            "startTime": "10:31",
+                                            "endTime": "13:30"
+                                        }
+                                    ],
+                                    "room": "AULA 18"
                                 }
                             ]
                         }
@@ -4041,7 +3837,7 @@
                                     "number": 41,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "15:31",
                                             "endTime": "18:30"
                                         }
@@ -4052,7 +3848,7 @@
                                     "number": 42,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "18:31",
                                             "endTime": "21:30"
                                         }
@@ -4089,42 +3885,30 @@
                                             "day": "Lunes",
                                             "startTime": "18:31",
                                             "endTime": "21:30"
-                                        }
-                                    ],
-                                    "room": "307E"
-                                },
-                                {
-                                    "number": 41,
-                                    "schedule": [
+                                        },
                                         {
                                             "day": "Jueves",
                                             "startTime": "16:31",
                                             "endTime": "18:30"
                                         }
                                     ],
-                                    "room": "302E"
+                                    "room": "307E"
                                 },
                                 {
                                     "number": 42,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "12:31",
                                             "endTime": "15:30"
-                                        }
-                                    ],
-                                    "room": "502H"
-                                },
-                                {
-                                    "number": 42,
-                                    "schedule": [
+                                        },
                                         {
                                             "day": "Lunes",
                                             "startTime": "16:31",
                                             "endTime": "18:30"
                                         }
                                     ],
-                                    "room": "204E"
+                                    "room": "502H"
                                 }
                             ]
                         },
@@ -4135,23 +3919,17 @@
                                     "number": 43,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "07:31",
                                             "endTime": "10:30"
-                                        }
-                                    ],
-                                    "room": "111 C.U"
-                                },
-                                {
-                                    "number": 43,
-                                    "schedule": [
+                                        },
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "10:31",
                                             "endTime": "12:30"
                                         }
                                     ],
-                                    "room": "112 C.U"
+                                    "room": "111 C.U"
                                 }
                             ]
                         }
@@ -4162,6 +3940,22 @@
                     "name": "DIDACTICA DE LA LECTOESCRITURA",
                     "semester": "8",
                     "teachers": [
+                        {
+                            "professor": "ROSA PATRICIA TRUJILLO MUÑOZ",
+                            "groups": [
+                                {
+                                    "number": 41,
+                                    "schedule": [
+                                        {
+                                            "day": "Miércoles",
+                                            "startTime": "18:31",
+                                            "endTime": "21:30"
+                                        }
+                                    ],
+                                    "room": "403H"
+                                }
+                            ]
+                        },
                         {
                             "professor": "ATALA DEL CARMEN OCHOA TORRENEGRA",
                             "groups": [
@@ -4180,28 +3974,12 @@
                                     "number": 43,
                                     "schedule": [
                                         {
-                                            "day": "Sabado",
+                                            "day": "Sábado",
                                             "startTime": "10:31",
                                             "endTime": "13:30"
                                         }
                                     ],
                                     "room": "108 C.U"
-                                }
-                            ]
-                        },
-                        {
-                            "professor": "ROSA PATRICIA TRUJILLO MUÑOZ",
-                            "groups": [
-                                {
-                                    "number": 41,
-                                    "schedule": [
-                                        {
-                                            "day": "Miercoles",
-                                            "startTime": "18:31",
-                                            "endTime": "21:30"
-                                        }
-                                    ],
-                                    "room": "403H"
                                 }
                             ]
                         }
@@ -4212,22 +3990,6 @@
                     "name": "DIDACTICA DE LAS TIC EN LA INFANCIA",
                     "semester": "8",
                     "teachers": [
-                        {
-                            "professor": "BONILYN DEL CARMEN PAEZ DE LA CRUZ",
-                            "groups": [
-                                {
-                                    "number": 43,
-                                    "schedule": [
-                                        {
-                                            "day": "Sabado",
-                                            "startTime": "07:31",
-                                            "endTime": "10:30"
-                                        }
-                                    ],
-                                    "room": "AI 103"
-                                }
-                            ]
-                        },
                         {
                             "professor": "LLOIDS KEVIN FIGUEROA VARELA",
                             "groups": [
@@ -4254,6 +4016,22 @@
                                     "room": "505A"
                                 }
                             ]
+                        },
+                        {
+                            "professor": "BONILYN DEL CARMEN PAEZ DE LA CRUZ",
+                            "groups": [
+                                {
+                                    "number": 43,
+                                    "schedule": [
+                                        {
+                                            "day": "Sábado",
+                                            "startTime": "07:31",
+                                            "endTime": "10:30"
+                                        }
+                                    ],
+                                    "room": "AI 103"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -4262,22 +4040,6 @@
                     "name": "LENGUA DE SEÑAS",
                     "semester": "8",
                     "teachers": [
-                        {
-                            "professor": "EDWIN EDUARDO OLIVEROS OSORIO",
-                            "groups": [
-                                {
-                                    "number": 43,
-                                    "schedule": [
-                                        {
-                                            "day": "Viernes",
-                                            "startTime": "10:31",
-                                            "endTime": "13:30"
-                                        }
-                                    ],
-                                    "room": "102 C.U"
-                                }
-                            ]
-                        },
                         {
                             "professor": "ORIS MARIA MERCADO MALDONADO",
                             "groups": [
@@ -4304,6 +4066,22 @@
                                     "room": "407E"
                                 }
                             ]
+                        },
+                        {
+                            "professor": "EDWIN EDUARDO OLIVEROS OSORIO",
+                            "groups": [
+                                {
+                                    "number": 43,
+                                    "schedule": [
+                                        {
+                                            "day": "Viernes",
+                                            "startTime": "10:31",
+                                            "endTime": "13:30"
+                                        }
+                                    ],
+                                    "room": "102 C.U"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -4318,56 +4096,23 @@
                     "semester": "9",
                     "teachers": [
                         {
-                            "professor": "DIANA SEVERINA SANTAMARIA HERNANDEZ",
-                            "groups": [
-                                {
-                                    "number": 43,
-                                    "schedule": [
-                                        {
-                                            "day": "Sabado",
-                                            "startTime": "08:31",
-                                            "endTime": "10:30"
-                                        }
-                                    ],
-                                    "room": "107 C.U"
-                                },
-                                {
-                                    "number": 43,
-                                    "schedule": [
-                                        {
-                                            "day": "Sabado",
-                                            "startTime": "10:31",
-                                            "endTime": "13:30"
-                                        }
-                                    ],
-                                    "room": "103 C.U"
-                                }
-                            ]
-                        },
-                        {
                             "professor": "PEGGY CECILIA DE LA HOZ BLANCO",
                             "groups": [
                                 {
                                     "number": 41,
                                     "schedule": [
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "14:31",
                                             "endTime": "16:30"
-                                        }
-                                    ],
-                                    "room": "305E"
-                                },
-                                {
-                                    "number": 41,
-                                    "schedule": [
+                                        },
                                         {
                                             "day": "Jueves",
                                             "startTime": "18:31",
                                             "endTime": "21:30"
                                         }
                                     ],
-                                    "room": "301E"
+                                    "room": "305E"
                                 },
                                 {
                                     "number": 42,
@@ -4376,20 +4121,35 @@
                                             "day": "Martes",
                                             "startTime": "18:31",
                                             "endTime": "21:30"
-                                        }
-                                    ],
-                                    "room": "506H"
-                                },
-                                {
-                                    "number": 42,
-                                    "schedule": [
+                                        },
                                         {
-                                            "day": "Miercoles",
+                                            "day": "Miércoles",
                                             "startTime": "16:31",
                                             "endTime": "18:30"
                                         }
                                     ],
-                                    "room": "402E"
+                                    "room": "506H"
+                                }
+                            ]
+                        },
+                        {
+                            "professor": "DIANA SEVERINA SANTAMARIA HERNANDEZ",
+                            "groups": [
+                                {
+                                    "number": 43,
+                                    "schedule": [
+                                        {
+                                            "day": "Sábado",
+                                            "startTime": "08:31",
+                                            "endTime": "10:30"
+                                        },
+                                        {
+                                            "day": "Sábado",
+                                            "startTime": "10:31",
+                                            "endTime": "13:30"
+                                        }
+                                    ],
+                                    "room": "107 C.U"
                                 }
                             ]
                         }
