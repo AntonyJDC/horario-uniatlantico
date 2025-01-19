@@ -1,5 +1,7 @@
 import React from "react";
 import { Switch } from "./ui/switch";
+import { Teacher } from "../types";
+import { Button } from "./ui/button";
 
 interface TeacherSwitchProps {
   subjectCode: string;
@@ -7,28 +9,7 @@ interface TeacherSwitchProps {
   activeGroup: number;
   activeTeachers: string[];
   toggleProfessor: (subjectCode: string, professor: string, isActive: boolean) => void;
-  changeGroup: (
-    subjectCode: string,
-    professor: string,
-    direction: "next" | "prev"
-  ) => void;
-}
-
-interface Teacher {
-  professor: string;
-  groupNumber1?: Group;
-  groupNumber2?: Group;
-}
-
-interface Group {
-  schedule: Schedule[];
-  room: string;
-}
-
-interface Schedule {
-  day: string;
-  startTime: string;
-  endTime: string;
+  changeGroup: (subjectCode: string, professor: string, direction: "next" | "prev") => void;
 }
 
 const TeacherSwitch: React.FC<TeacherSwitchProps> = ({
@@ -39,38 +20,37 @@ const TeacherSwitch: React.FC<TeacherSwitchProps> = ({
   toggleProfessor,
   changeGroup,
 }) => {
-  const groupCount = teacher.groupNumber1 && teacher.groupNumber2 ? 2 : 1;
+  const groupIndex = teacher.groups.findIndex(group => group.number === activeGroup);
+  const groupCount = teacher.groups.length;
 
   return (
     <div className="mt-4">
       <div className="flex items-center justify-between">
         <p className="text-sm font-medium">{teacher.professor}</p>
         <div className="flex items-center gap-2">
-          {activeGroup > 1 && (
-            <button
+          {groupIndex > 0 && (
+            <Button
               className="text-blue-600 hover:underline"
               onClick={() => changeGroup(subjectCode, teacher.professor, "prev")}
             >
               {"<"}
-            </button>
+            </Button>
           )}
           <span className="text-sm">
-            {activeGroup}/{groupCount}
+            {teacher.groups[groupIndex]?.number} / {teacher.groups[groupCount - 1]?.number}
           </span>
-          {groupCount > 1 && activeGroup < groupCount && (
-            <button
+          {groupIndex < groupCount - 1 && (
+            <Button
               className="text-blue-600 hover:underline"
               onClick={() => changeGroup(subjectCode, teacher.professor, "next")}
             >
               {">"}
-            </button>
+            </Button>
           )}
         </div>
         <Switch
           checked={activeTeachers.includes(teacher.professor)}
-          onCheckedChange={(checked) =>
-            toggleProfessor(subjectCode, teacher.professor, checked)
-          }
+          onCheckedChange={(checked) => toggleProfessor(subjectCode, teacher.professor, checked)}
         />
       </div>
     </div>
