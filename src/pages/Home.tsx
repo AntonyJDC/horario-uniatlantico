@@ -24,7 +24,7 @@ const Home: React.FC = () => {
 
     const subjects: Subject[] = subjectsData.semesters.flatMap((semester) => semester.subjects);
 
-     useEffect(() => {
+    useEffect(() => {
         const newCalendarSubjects: CalendarSubject[] = [];
         const newActiveSubjectInfo: Record<string, { professor: string; group: number }> = {};
 
@@ -63,7 +63,7 @@ const Home: React.FC = () => {
         setCalendarSubjects(newCalendarSubjects);
         setActiveSubjectInfo(newActiveSubjectInfo);
     }, [selectedSubjects]);
-    
+
 
     const handleToggleSubject = (subject: Subject, isActive: boolean) => {
         setSelectedSubjects((prev) => {
@@ -132,7 +132,7 @@ const Home: React.FC = () => {
 
     return (
         <div className="mx-4 md:mx-16 my-8">
-            <div className="flex flex-col md:flex-row justify-between items-center text-center mb-8">
+            <div id="info" className="flex flex-col md:flex-row justify-between items-center text-center mb-8">
                 <img
                     src="https://www.uniatlantico.edu.co/wp-content/uploads/2023/01/Universidad-del-Atlántico-e1672809639550-300x127.png"
                     alt="Universidad del Atlántico"
@@ -146,16 +146,20 @@ const Home: React.FC = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4">
-                <div className="col-span-1 md:col-span-2 lg:col-span-3 bg-gray-100 rounded-lg p-4 shadow-md">
+                <div id="selectors" className="col-span-1 md:col-span-2 lg:col-span-3 bg-gray-100 rounded-lg p-4 shadow-md">
                     <div className="flex flex-col md:flex-row justify-between items-center">
                         <Button className="w-full md:w-auto m-2" onClick={() => setDialogOpen(true)}>
                             <Plus size={20} className="mr-2" />
                             Añadir Materias
                         </Button>
-                        <Button className="w-full md:w-auto m-2">
+                        <Button
+                            className="w-full md:w-auto m-2"
+                            onClick={() => window.print()}
+                        >
                             <Download size={20} className="mr-2" />
                             Descargar
                         </Button>
+
                     </div>
 
                     <SubjectList
@@ -167,7 +171,7 @@ const Home: React.FC = () => {
                     />
                 </div>
 
-                <div className="col-span-1 md:col-span-2 lg:col-span-9 overflow-x-auto">
+                <div id="table" className="col-span-1 md:col-span-2 lg:col-span-9 overflow-x-auto">
                     <ScheduleTable subjects={calendarSubjects} />
                 </div>
             </div>
