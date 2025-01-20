@@ -5,6 +5,7 @@ import { Subject } from "../types";
 import { Button } from "./ui/button";
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "./ui/accordion";
 import { Input } from "./ui/input";
+import { DialogDescription } from "@radix-ui/react-dialog";
 interface SubjectDialogProps {
     isOpen: boolean;
     setIsOpen: (open: boolean) => void;
@@ -43,10 +44,11 @@ const SubjectDialog: React.FC<SubjectDialogProps> = ({
     }, {} as Record<string, Subject[]>);
 
     return (
-        <Dialog open={isOpen} onOpenChange={setIsOpen}>
+        <Dialog open={isOpen} onOpenChange={setIsOpen} aria-label="Selecciona tus materias">
             <DialogContent className="max-w-auto max-h-[80vh] overflow-y-auto">
                 <DialogHeader>
                     <DialogTitle>Selecciona tus materias</DialogTitle>
+                    <DialogDescription>Añade todas las materias que tienes que cursar este semestre</DialogDescription>
                 </DialogHeader>
 
                 <Input

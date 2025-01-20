@@ -42,7 +42,7 @@ const SubjectList: React.FC<SubjectListProps> = ({
                                     checked={isActive}
                                     onCheckedChange={(checked) => toggleSubject(subject.code, checked)}
                                 />
-                                <p className="font-bold text-lg">{subject.name}</p>
+                                <p className="font-bold text-sm">{subject.name}</p>
                             </div>
                             {isActive && lastActiveProfessor && (
                                 (() => {
@@ -72,7 +72,7 @@ const SubjectList: React.FC<SubjectListProps> = ({
                                             >
                                                 <ChevronLeft />
                                             </Button>
-                                            <span className="text-sm w-10 text-center">{activeGroupNumber}</span>
+                                            <span className="text-sm text-center">{activeGroupNumber}</span>
                                             <Button
                                                 size="sm"
                                                 className={`rounded-l-none w-8 flex justify-center ${currentGroupIndex === lastActiveTeacher.groups.length - 1

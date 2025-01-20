@@ -6,7 +6,7 @@ interface ScheduleTableProps {
 }
 
 const ScheduleTable: React.FC<ScheduleTableProps> = ({ subjects }) => {
-    const hours = Array.from({ length: 14 }, (_, i) => {
+    const hours = Array.from({ length: 15 }, (_, i) => {
         const hour = 6 + i;
         return `${hour.toString().padStart(2, "0")}:30 - ${(hour + 1).toString().padStart(2, "0")}:30`;
     });
