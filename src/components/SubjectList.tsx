@@ -37,7 +37,7 @@ const SubjectList: React.FC<SubjectListProps> = ({
                 return (
                     <li key={subject.code} className="border-b border-gray-300 p-2">
                         <div className="flex items-center justify-between">
-                            <div className="flex items-center gap-4 mb-2">
+                            <div className="flex items-center gap-2 mb-2">
                                 <Switch
                                     checked={isActive}
                                     onCheckedChange={(checked) => toggleSubject(subject.code, checked)}
@@ -59,10 +59,10 @@ const SubjectList: React.FC<SubjectListProps> = ({
                                     );
 
                                     return (
-                                        <div className="flex items-center gap-2 w-[120px] justify-center">
+                                        <div className="flex items-center gap-1 w-[120px] justify-center">
                                             <Button
                                                 size="sm"
-                                                className={`rounded-r-none w-8 flex justify-center ${currentGroupIndex === 0 ? "bg-transparent shadow-none transition-all" : ""
+                                                className={`rounded-r-none w-8 flex justify-center ${currentGroupIndex === 0 ? "invisible shadow-none transition-all" : ""
                                                     }`}
                                                 onClick={() =>
                                                     currentGroupIndex > 0 &&
@@ -76,7 +76,7 @@ const SubjectList: React.FC<SubjectListProps> = ({
                                             <Button
                                                 size="sm"
                                                 className={`rounded-l-none w-8 flex justify-center ${currentGroupIndex === lastActiveTeacher.groups.length - 1
-                                                    ? "bg-transparent shadow-none transition-all"
+                                                    ? "invisible shadow-none transition-all"
                                                     : ""
                                                     }`}
                                                 onClick={() =>

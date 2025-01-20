@@ -132,7 +132,7 @@ const Home: React.FC = () => {
 
     return (
         <div className="mx-4 md:mx-16 my-8">
-            <div id="info" className="flex flex-col md:flex-row justify-between items-center text-center mb-8">
+            <div id="info" className="flex flex-col lg:flex-row justify-between items-center text-center mb-8">
                 <img
                     src="https://www.uniatlantico.edu.co/wp-content/uploads/2023/01/Universidad-del-Atlántico-e1672809639550-300x127.png"
                     alt="Universidad del Atlántico"
@@ -145,15 +145,15 @@ const Home: React.FC = () => {
                 <p className="text-base md:text-lg text-gray-500">Semestre 2025-1</p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4">
-                <div id="selectors" className="col-span-1 md:col-span-2 lg:col-span-3 bg-gray-100 rounded-lg p-4 shadow-md">
-                    <div className="flex flex-col md:flex-row justify-between items-center">
-                        <Button className="w-full md:w-auto m-2" onClick={() => setDialogOpen(true)}>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-y-4 lg:gap-x-4">
+                <div id="selectors" className="col-span-1 md:col-span-4 lg:col-span-4 2xl:col-span-3 bg-gray-100 rounded-lg p-4 shadow-md">
+                    <div className="flex flex-col xl:flex-row justify-between items-center">
+                        <Button className="w-full xl:w-auto m-2" onClick={() => setDialogOpen(true)}>
                             <Plus size={20} className="mr-2" />
                             Añadir Materias
                         </Button>
                         <Button
-                            className="w-full md:w-auto m-2"
+                            className="w-full xl:w-auto m-2"
                             onClick={() => window.print()}
                         >
                             <Download size={20} className="mr-2" />
@@ -171,7 +171,7 @@ const Home: React.FC = () => {
                     />
                 </div>
 
-                <div id="table" className="col-span-1 md:col-span-2 lg:col-span-9 overflow-x-auto">
+                <div id="table" className="col-span-1 md:col-span-2 lg:col-span-8 2xl:col-span-9 overflow-x-auto">
                     <ScheduleTable subjects={calendarSubjects} />
                 </div>
             </div>
