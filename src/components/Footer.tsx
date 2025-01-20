@@ -2,9 +2,11 @@
 
 import { useState } from "react";
 import UserManualDialog from "./UserManualDialog";
+import { AboutDialog } from "./AboutDialog";
 
 const Footer: React.FC = () => {
     const [isManualOpen, setIsManualOpen] = useState(false);
+    const [isAboutOpen, setIsAboutOpen] = useState(false);
     return (
         <footer className="bg-white">
             <div className="mx-4 md:mx-16 md:py-8">
@@ -20,10 +22,20 @@ const Footer: React.FC = () => {
                                 onClick={(e) => {
                                     e.preventDefault();
                                     setIsManualOpen(true);
-                                }}>¿Cómo usar?</a>
+                                }}>
+                                ¿Cómo usar?
+                            </a>
                         </li>
                         <li>
-                            <a href="#" className="hover:underline me-4 md:me-6">Acerca de</a>
+                            <a
+                                href="#"
+                                className="hover:underline me-4 md:me-6"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    setIsAboutOpen(true);
+                                }}>
+                                Acerca de
+                            </a>
                         </li>
                         <li>
                             <a href="mailto:antonydominguez28@gmail.com" className="hover:underline">Contacto</a>
@@ -57,6 +69,10 @@ const Footer: React.FC = () => {
             <UserManualDialog
                 isOpen={isManualOpen}
                 onClose={() => setIsManualOpen(false)}
+            />
+            <AboutDialog
+                isOpen={isAboutOpen}
+                onClose={() => setIsAboutOpen(false)}
             />
         </footer>
     )
