@@ -177,6 +177,8 @@ const Home: React.FC = () => {
             </div>
 
             <SubjectDialog
+                aria-label="Selecciona tus materias"
+                
                 isOpen={isDialogOpen}
                 setIsOpen={setDialogOpen}
                 subjects={subjects}
