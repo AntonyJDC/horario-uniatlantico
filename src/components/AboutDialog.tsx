@@ -9,7 +9,7 @@ export function AboutDialog({ isOpen, onClose }: AboutDialogProps) {
 
     return (
         <Dialog open={isOpen} onOpenChange={onClose} >
-            <DialogContent className="max-w-3xl text-justify p-10">
+            <DialogContent className="max-h-[80vh] md:max-w-3xl text-justify p-10 overflow-y-auto">
                 <DialogTitle>Acerca de la Plataforma</DialogTitle>
                 <DialogDescription>
                     Esta plataforma ha sido desarrollada con el objetivo de facilitar la generación de horarios académicos y verificar posibles conflictos entre materias de manera eficiente. La información utilizada para la generación del horario es proporcionada
