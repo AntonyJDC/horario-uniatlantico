@@ -133,11 +133,13 @@ const Home: React.FC = () => {
     return (
         <div className="mx-4 md:mx-16 my-8">
             <div id="info" className="flex flex-col lg:flex-row justify-between items-center text-center mb-8">
-                <img
-                    src="https://www.uniatlantico.edu.co/wp-content/uploads/2023/01/Universidad-del-Atlántico-e1672809639550-300x127.png"
-                    alt="Universidad del Atlántico"
-                    className="h-16 md:h-20 mb-4 md:mb-0"
-                />
+                <a href="/">
+                    <img
+                        src="https://www.uniatlantico.edu.co/wp-content/uploads/2023/01/Universidad-del-Atlántico-e1672809639550-300x127.png"
+                        alt="Universidad del Atlántico"
+                        className="h-16 md:h-20 mb-4 md:mb-0"
+                    />
+                </a>
                 <h1 className="text-2xl md:text-3xl font-bold leading-tight">
                     Horario de clases para <br className="hidden md:block" />
                     Licenciatura en Educación Infantil
@@ -178,7 +180,7 @@ const Home: React.FC = () => {
 
             <SubjectDialog
                 aria-label="Selecciona tus materias"
-                
+
                 isOpen={isDialogOpen}
                 setIsOpen={setDialogOpen}
                 subjects={subjects}

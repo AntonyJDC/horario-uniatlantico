@@ -1,5 +1,4 @@
-import { Dialog, DialogTrigger, DialogContent, DialogTitle, DialogDescription } from "@/components/ui/dialog";
-import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 
 interface AboutDialogProps {
     isOpen: boolean;
@@ -10,9 +9,6 @@ export function AboutDialog({ isOpen, onClose }: AboutDialogProps) {
 
     return (
         <Dialog open={isOpen} onOpenChange={onClose} >
-            <DialogTrigger asChild>
-                <Button variant="outline">Acerca de</Button>
-            </DialogTrigger>
             <DialogContent className="max-w-3xl text-justify p-10">
                 <DialogTitle>Acerca de la Plataforma</DialogTitle>
                 <DialogDescription>
