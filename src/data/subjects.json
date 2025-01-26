@@ -7,6 +7,7 @@
                     "code": "300315",
                     "name": "ENSEÑANZA DE LA FILOSOFÍA EN LA INFANCIA",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "LEONARDO  CELIS ROYET",
@@ -46,6 +47,7 @@
                     "code": "300342",
                     "name": "ESTIMULACION PARA EL RETRASO MADURATIVO",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "MIRYAM JOSEFA JINETE DE LA ROSA",
@@ -85,6 +87,7 @@
                     "code": "300344",
                     "name": "ELABORACION DE MATERIAL DIDACTICO PARA LA",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "ATALA DEL CARMEN OCHOA TORRENEGRA",
@@ -108,6 +111,7 @@
                     "code": "300422",
                     "name": "DIDÁCTICA DE LAS CIENCIAS NATURALES",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "LUIS ALFREDO GÓMEZ LINARES",
@@ -147,6 +151,7 @@
                     "code": "300661",
                     "name": "DESARROLLO DE LA SOCIOAFECTIVIDAD EN LA IN",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "ISAURA MARCELA RIVEIRA ALVAREZ",
@@ -170,6 +175,7 @@
                     "code": "300671",
                     "name": "ESTRATEGIAS DE CERO A SIEMPRE Y EL ENTORNO",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "ISAURA MARCELA RIVEIRA ALVAREZ",
@@ -209,6 +215,7 @@
                     "code": "300672",
                     "name": "EDUCACIÓN EMOCIONAL",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "BONILYN DEL CARMEN PAEZ DE LA CRUZ",
@@ -248,6 +255,7 @@
                     "code": "300681",
                     "name": "TÉCNICAS LÚDICO PEDAGÓGICAS PARA EL TRABA",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "OSCAR  RUEDA  PRADA",
@@ -271,6 +279,7 @@
                     "code": "300701",
                     "name": "DESARROLLO DE LA SEXUALIDAD EN LA INFANCIA",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "MARCO TURBAY ILLUECA",
@@ -310,6 +319,7 @@
                     "code": "300750",
                     "name": "EDUCACION RURAL PARA LA INFANCIA",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "VANESA GUAPUCAL",
@@ -333,6 +343,7 @@
                     "code": "300754",
                     "name": "DIDACTICA DE LAS CIENCIAS SOCIALES Y COMPET",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "RICARDO EDGARDO CERA MARTINEZ",
@@ -356,6 +367,7 @@
                     "code": "300755",
                     "name": "EDUCACIÓN INCLUSIVA PARA LA PRIMERA INFAN",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "EDWIN EDUARDO OLIVEROS OSORIO",
@@ -395,6 +407,7 @@
                     "code": "300760",
                     "name": "GESTION EDUCATIVA",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "MARIA ALEJANDRA",
@@ -418,6 +431,7 @@
                     "code": "300767",
                     "name": "APRENDIZAJE DEL SISTEMA BRAILLE",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "MARLEINIS HERNÁNDEZ",
@@ -452,6 +466,7 @@
                     "code": "300794",
                     "name": "LENGUA DE SEÑAS",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "AMADO DONADO MEDINA",
