@@ -106,6 +106,9 @@ const SubjectList: React.FC<SubjectListProps> = ({
                                 <p className="text-sm">
                                     <strong>Profesor:</strong> {activeInfo.professor}
                                 </p>
+                                <p className="text-sm">
+                                    <strong>Número de créditos:</strong> {subject.credits}
+                                </p>
                             </div>
                         )}
 

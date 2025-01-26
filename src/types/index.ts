@@ -20,6 +20,7 @@ export interface Schedule {
     name: string;
     semester: string;
     teachers: Teacher[];
+    credits: number;
   }
   
   export interface CalendarSubject {

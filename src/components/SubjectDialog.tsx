@@ -6,6 +6,7 @@ import { Button } from "./ui/button";
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "./ui/accordion";
 import { Input } from "./ui/input";
 import { DialogDescription } from "@radix-ui/react-dialog";
+import { LucideSearch } from "lucide-react";
 interface SubjectDialogProps {
     isOpen: boolean;
     setIsOpen: (open: boolean) => void;
@@ -51,12 +52,24 @@ const SubjectDialog: React.FC<SubjectDialogProps> = ({
                     <DialogDescription>Añade todas las materias que tienes que cursar este semestre</DialogDescription>
                 </DialogHeader>
 
-                <Input
-                    placeholder="Buscar materia"
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                    className="mb-4"
-                />
+                <div className="relative w-full">
+                    <LucideSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" size={18} />
+                    <Input
+                        placeholder="Buscar materia"
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                        className="pl-10"
+                    />
+                </div>
+
+                <p className="text-sm">
+                    Cantidad de créditos seleccionados:{" "}
+                    <span className="font-bold">
+                        {selectedSubjects.reduce((total, subject) =>
+                            total + (isNaN(subject.credits) ? 0 : subject.credits), 0)}
+                    </span>
+                </p>
+
                 <ul className="space-y-4">
                     <Accordion type="multiple" defaultValue={Object.keys(subjectsBySemester)} className="w-full">
                         {Object.entries(
@@ -76,8 +89,8 @@ const SubjectDialog: React.FC<SubjectDialogProps> = ({
                                         {semesterSubjects.map((subject) => (
                                             <li key={subject.code} className="flex justify-between items-center p-2 border-b">
                                                 <div>
-                                                    <p className="font-bold">{subject.name}</p>
-                                                    <p className="text-sm text-gray-500">Código: {subject.code}</p>
+                                                    <p>{subject.name}</p>
+                                                    <p className="text-sm text-gray-500"> <span className="font-semibold italic">Código: </span> {subject.code} <span className="font-semibold italic">Créditos: </span> {subject.credits}</p>
                                                 </div>
                                                 <Switch
                                                     checked={selectedSubjects.some((s) => s.code === subject.code)}

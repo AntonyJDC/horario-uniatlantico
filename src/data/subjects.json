@@ -7,6 +7,7 @@
                     "code": "300315",
                     "name": "ENSEÑANZA DE LA FILOSOFÍA EN LA INFANCIA",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "LEONARDO  CELIS ROYET",
@@ -46,6 +47,7 @@
                     "code": "300342",
                     "name": "ESTIMULACION PARA EL RETRASO MADURATIVO",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "MIRYAM JOSEFA JINETE DE LA ROSA",
@@ -85,6 +87,7 @@
                     "code": "300344",
                     "name": "ELABORACION DE MATERIAL DIDACTICO PARA LA",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "ATALA DEL CARMEN OCHOA TORRENEGRA",
@@ -108,6 +111,7 @@
                     "code": "300422",
                     "name": "DIDÁCTICA DE LAS CIENCIAS NATURALES",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "LUIS ALFREDO GÓMEZ LINARES",
@@ -147,6 +151,7 @@
                     "code": "300661",
                     "name": "DESARROLLO DE LA SOCIOAFECTIVIDAD EN LA IN",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "ISAURA MARCELA RIVEIRA ALVAREZ",
@@ -170,6 +175,7 @@
                     "code": "300671",
                     "name": "ESTRATEGIAS DE CERO A SIEMPRE Y EL ENTORNO",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "ISAURA MARCELA RIVEIRA ALVAREZ",
@@ -209,6 +215,7 @@
                     "code": "300672",
                     "name": "EDUCACIÓN EMOCIONAL",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "BONILYN DEL CARMEN PAEZ DE LA CRUZ",
@@ -248,6 +255,7 @@
                     "code": "300681",
                     "name": "TÉCNICAS LÚDICO PEDAGÓGICAS PARA EL TRABA",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "OSCAR  RUEDA  PRADA",
@@ -271,6 +279,7 @@
                     "code": "300701",
                     "name": "DESARROLLO DE LA SEXUALIDAD EN LA INFANCIA",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "MARCO TURBAY ILLUECA",
@@ -310,6 +319,7 @@
                     "code": "300750",
                     "name": "EDUCACION RURAL PARA LA INFANCIA",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "VANESA GUAPUCAL",
@@ -333,6 +343,7 @@
                     "code": "300754",
                     "name": "DIDACTICA DE LAS CIENCIAS SOCIALES Y COMPET",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "RICARDO EDGARDO CERA MARTINEZ",
@@ -356,6 +367,7 @@
                     "code": "300755",
                     "name": "EDUCACIÓN INCLUSIVA PARA LA PRIMERA INFAN",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "EDWIN EDUARDO OLIVEROS OSORIO",
@@ -395,6 +407,7 @@
                     "code": "300760",
                     "name": "GESTION EDUCATIVA",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "MARIA ALEJANDRA",
@@ -418,6 +431,7 @@
                     "code": "300767",
                     "name": "APRENDIZAJE DEL SISTEMA BRAILLE",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "MARLEINIS HERNÁNDEZ",
@@ -452,6 +466,7 @@
                     "code": "300794",
                     "name": "LENGUA DE SEÑAS",
                     "semester": "0",
+                    "credits": 0,
                     "teachers": [
                         {
                             "professor": "AMADO DONADO MEDINA",
@@ -480,6 +495,7 @@
                     "code": "30939",
                     "name": "DESARROLLO HUMANO: ENFOQUES Y TEORÍAS",
                     "semester": "1",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "MANUEL CONSUEGRA ALGARIN",
@@ -587,8 +603,9 @@
                 },
                 {
                     "code": "61395",
-                    "name": "TALLER DE COMPETENCIAS COMUNICATIVAS",
+                    "name": "TALLER DE COMPETENCIAS COMUNICATIVAS I",
                     "semester": "1",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "FRENSIS ISAAC SALCEDO FONTALVO",
@@ -711,8 +728,9 @@
                 },
                 {
                     "code": "300264",
-                    "name": "EDUCACION Y CONTEXTO DE LA EDUCACION INF",
+                    "name": "EDUCACION Y CONTEXTO DE LA EDUCACION INFANTIL",
                     "semester": "1",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "EDILBERTO  HART MONTES",
@@ -815,8 +833,9 @@
                 },
                 {
                     "code": "300265",
-                    "name": "LEGISLACION Y POLITICAS EN LA PRIMERA INFAN",
+                    "name": "LEGISLACION Y POLITICAS EN LA PRIMERA INFANCIA",
                     "semester": "1",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "VILMA LUCIA RIAÑO GONZALEZ",
@@ -916,6 +935,7 @@
                     "code": "300266",
                     "name": "EDUCACION FAMILIAR",
                     "semester": "1",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "GINGER MARIA TORRES DE TORRES",
@@ -1005,6 +1025,7 @@
                     "code": "300267",
                     "name": "SALUD NUTRICIONAL EN LA INFANCIA",
                     "semester": "1",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "ALEXANDRA KERINA VALDELAMAR VILLEGAS",
@@ -1104,6 +1125,7 @@
                     "code": "306001",
                     "name": "TALLER DE RAZONAMIENTO CUANTITATIVO",
                     "semester": "1",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "MARCOS ENRIQUE CASTAÑEDA OROZCO",
@@ -1231,8 +1253,9 @@
                 },
                 {
                     "code": "306002",
-                    "name": "EPISTEMOLOGIA E HISTORIA DE LA PEDAGOGIA Y",
+                    "name": "EPISTEMOLOGIA E HISTORIA DE LA PEDAGOGIA Y EDUCACION",
                     "semester": "1",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "ROSAURA  MIRANDA PADILLA",
@@ -1352,6 +1375,7 @@
                     "code": "30941",
                     "name": "DESARROLLO HUMANO: DIMENSIONES",
                     "semester": "2",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "CAROLINA CECILIA DE LA HOZ CAMPO",
@@ -1456,6 +1480,7 @@
                     "code": "61391",
                     "name": "TALLER DE INGLES I",
                     "semester": "2",
+                    "credits": 3,
                     "teachers": [
                         {
                             "professor": "CARMEN MARIA ESTRADA CAMARGO",
@@ -1593,8 +1618,9 @@
                 },
                 {
                     "code": "300253",
-                    "name": "FUNDAMENTOS DE INVESTIGACION EN CIENCIAS",
+                    "name": "FUNDAMENTOS DE INVESTIGACION EN CIENCIAS DE LA EDUCACION",
                     "semester": "2",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "LEONARDO  CELIS ROYET",
@@ -1697,8 +1723,9 @@
                 },
                 {
                     "code": "300268",
-                    "name": "TEORIAS DEL DESARROLLO SOCIOAFECTIVO EN L",
+                    "name": "TEORIAS DEL DESARROLLO SOCIOAFECTIVO EN LA INFANCIA",
                     "semester": "2",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "MARTHA LUZ ORTIZ PADILLA",
@@ -1806,8 +1833,9 @@
                 },
                 {
                     "code": "300269",
-                    "name": "TENDENCIAS Y PRINCIPIOS DE LA EDUCACION INF",
+                    "name": "TENDENCIAS Y PRINCIPIOS DE LA EDUCACION INFANTIL",
                     "semester": "2",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "CARLOS MARIO RAMOS GELVEZ",
@@ -1922,6 +1950,7 @@
                     "code": "300270",
                     "name": "DIDACTICA DE LA MUSICA",
                     "semester": "2",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "LUZ ELENA TABARES",
@@ -2014,8 +2043,9 @@
                 },
                 {
                     "code": "306003",
-                    "name": "EDUCACION Y TEORIAS PEDAGOGICAS CONTEMP",
+                    "name": "EDUCACION Y TEORIAS PEDAGOGICAS CONTENPORANEAS",
                     "semester": "2",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "BRANDON ALFONSO TAPIERO PEREZ",
@@ -2133,8 +2163,9 @@
             "subjects": [
                 {
                     "code": "30068",
-                    "name": "MODELOS Y TENDENCIAS PEDAGOGICAS CONTE",
+                    "name": "MODELOS Y TENDENCIAS PEDAGOGICAS CONTEMPORANEAS",
                     "semester": "3",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "CARLOS MARIO RAMOS GELVEZ",
@@ -2185,6 +2216,7 @@
                     "code": "30942",
                     "name": "DESARROLLO HUMANO: PROCESOS",
                     "semester": "3",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "MARCO  TURBAY ILLUECA",
@@ -2235,6 +2267,7 @@
                     "code": "61392",
                     "name": "TALLER DE INGLES II",
                     "semester": "3",
+                    "credits": 3,
                     "teachers": [
                         {
                             "professor": "ELENA MARIA SUAREZ DE LOS RIOS",
@@ -2303,8 +2336,9 @@
                 },
                 {
                     "code": "300272",
-                    "name": "BASES NEUROPSICOBIOLOGICAS DEL COMPORTA",
+                    "name": "BASES NEUROPSICOBIOLOGICAS DEL COMPORTAMIENTO",
                     "semester": "3",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "MIRYAM JOSEFA JINETE DE LA ROSA",
@@ -2355,6 +2389,7 @@
                     "code": "300273",
                     "name": "INVESTIGACION PEDAGOGICA",
                     "semester": "3",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "RAFAEL F. OYAGA MARTINEZ",
@@ -2405,6 +2440,7 @@
                     "code": "300274",
                     "name": "DIDACTICA DE LA EXPRESION TEATRAL",
                     "semester": "3",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "LIGIA  RINCON GOMEZ",
@@ -2453,8 +2489,9 @@
                 },
                 {
                     "code": "300275",
-                    "name": "DIDACTICA DEL PENSAMIENTO MATEMATICO EN",
+                    "name": "DIDACTICA DEL PENSAMIENTO MATEMATICO EN LA INFANCIA",
                     "semester": "3",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "MARELLY  MANOTAS MERCADO",
@@ -2505,6 +2542,7 @@
                     "code": "30938",
                     "name": "PROCESOS CURRICULARES",
                     "semester": "4",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "GINGER MARIA TORRES DE TORRES",
@@ -2550,6 +2588,7 @@
                     "code": "61393",
                     "name": "TALLER DE INGLES III",
                     "semester": "4",
+                    "credits": 3,
                     "teachers": [
                         {
                             "professor": "GLADYS DEL CARMEN RODRIGUEZ VERGARA",
@@ -2618,8 +2657,9 @@
                 },
                 {
                     "code": "300276",
-                    "name": "DIMENSION Y PROCESO PSICOMOTRIZ EN LA PRI",
+                    "name": "DIMENSION Y PROCESO PSICOMOTRIZ EN LA PRIMERA INFANCIA",
                     "semester": "4",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "OSCAR  RUEDA  PRADA",
@@ -2670,6 +2710,7 @@
                     "code": "300277",
                     "name": "DESARROLLO DEL LENGUAJE Y COMUNICACION",
                     "semester": "4",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "ROSA PATRICIA TRUJILLO MUÑOZ",
@@ -2718,8 +2759,9 @@
                 },
                 {
                     "code": "300278",
-                    "name": "INVESTIGACION E INNOVACION EDUCATIVA EN E",
+                    "name": "INVESTIGACION E INNOVACION EDUCATIVA EN EDUCACION INFANTIL",
                     "semester": "4",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "JUAN ELADIO DE LA HOZ BLANCO",
@@ -2770,6 +2812,7 @@
                     "code": "300279",
                     "name": "DIDACTICA DE LA EXPRESION CORPORAL",
                     "semester": "4",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "ZULLY KATHERINE OROZCO PEÑA",
@@ -2818,8 +2861,9 @@
                 },
                 {
                     "code": "300313",
-                    "name": "BASES NEUROPSICOPEDAGOGICAS DEL APRENDI",
+                    "name": "BASES NEUROPSICOPEDAGOGICAS DEL APRENDIZAJE",
                     "semester": "4",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "MARCO AURELIO VENEGAS POLO",
@@ -2880,6 +2924,7 @@
                     "code": "61394",
                     "name": "TALLER DE INGLES IV",
                     "semester": "5",
+                    "credits": 3,
                     "teachers": [
                         {
                             "professor": "ADOLFO DARIO VILLAREAL ANGULO",
@@ -2948,8 +2993,9 @@
                 },
                 {
                     "code": "300282",
-                    "name": "TRASTORNOS DEL LENGUAJE Y ABORDAJE PEDAG",
+                    "name": "TRASTORNOS DEL LENGUAJE Y ABORDAJE PEDAGOGICO",
                     "semester": "5",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "ZULMA DEL CARMEN SOLANO ESPARRAGOZA",
@@ -3003,8 +3049,9 @@
                 },
                 {
                     "code": "300283",
-                    "name": "SEMINARIO DE PRACTICA EN EDUCACION INFANT",
+                    "name": "SEMINARIO DE PRACTICA EN EDUCACION INFANTIL I",
                     "semester": "5",
+                    "credits": 5,
                     "teachers": [
                         {
                             "professor": "YOHANA CENITH  GARCIA ELGUEDO",
@@ -3065,6 +3112,7 @@
                     "code": "300284",
                     "name": "DIDACTICA DE LA GRAFICOPLASTIA",
                     "semester": "5",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "LIGIA  RINCON GOMEZ",
@@ -3115,6 +3163,7 @@
                     "code": "300285",
                     "name": "ESTIMULACION Y ELABORACION DE PROGRAMAS",
                     "semester": "5",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "MIRYAM JOSEFA JINETE DE LA ROSA",
@@ -3170,6 +3219,7 @@
                     "code": "305008",
                     "name": "PROCESOS DE EVALUACION EN EDUCACION",
                     "semester": "5",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "JUAN ELADIO DE LA HOZ BLANCO",
@@ -3223,8 +3273,9 @@
             "subjects": [
                 {
                     "code": "300287",
-                    "name": "EVALUACION E INTERVENCION DE LA POBLACION",
+                    "name": "EVALUACION E INTERVENCION DE LA POBLACION INFANTIL",
                     "semester": "6",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "MIRYAM JOSEFA JINETE DE LA ROSA",
@@ -3273,8 +3324,9 @@
                 },
                 {
                     "code": "300288",
-                    "name": "SEMINARIO DE PRACTICA EN EDUCACION INFANT",
+                    "name": "SEMINARIO DE PRACTICA EN EDUCACION INFANTIL II",
                     "semester": "6",
+                    "credits": 5,
                     "teachers": [
                         {
                             "professor": "ANDREA CAROLINA VARGAS QUINTERO",
@@ -3335,6 +3387,7 @@
                     "code": "300289",
                     "name": "LA LUDICA EN LA EDUCACION INFANTIL",
                     "semester": "6",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "BRYAN JOAQUIN ARRIETA NUÑEZ",
@@ -3385,6 +3438,7 @@
                     "code": "300290",
                     "name": "DIDACTICA DE LAS CIENCIAS SOCIALES",
                     "semester": "6",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "JUAN ELADIO DE LA HOZ BLANCO",
@@ -3435,6 +3489,7 @@
                     "code": "306005",
                     "name": "ADMINISTRACION Y LEGISLACION EDUCATIVA",
                     "semester": "6",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "RICARDO EDGARDO CERA MARTINEZ",
@@ -3485,6 +3540,7 @@
                     "code": "306006",
                     "name": "ETICA DEL EDUCADOR CONTEMPORANEO",
                     "semester": "6",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "BRYAN JOAQUIN ARRIETA NUÑEZ",
@@ -3545,6 +3601,7 @@
                     "code": "300293",
                     "name": "PRACTICA DOCENTE: OBSERVACION",
                     "semester": "7",
+                    "credits": 8,
                     "teachers": [
                         {
                             "professor": "LUCIANA  PERTUZ ALTAMIRANDA",
@@ -3631,6 +3688,7 @@
                     "code": "300294",
                     "name": "LITERATURA INFANTIL",
                     "semester": "7",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "YAMILE ASHLOY RAMIREZ SERNA",
@@ -3700,8 +3758,9 @@
                 },
                 {
                     "code": "300295",
-                    "name": "ESTADISTICA APLICADA A LA EDUCACION INFANT",
+                    "name": "ESTADISTICA APLICADA A LA EDUCACION INFANTIL",
                     "semester": "7",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "MARCOS ENRIQUE CASTAÑEDA OROZCO",
@@ -3761,8 +3820,9 @@
                 },
                 {
                     "code": "300296",
-                    "name": "DIDACTICA DE LAS CIENCIAS NATURALES Y EDUC",
+                    "name": "DIDACTICA DE LAS CIENCIAS NATURALES Y EDUCACION AMBIENTAL",
                     "semester": "7",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "LUIS ALFREDO GÓMEZ LINARES",
@@ -3829,6 +3889,7 @@
                     "code": "300298",
                     "name": "INCLUSION Y ESTRATEGIAS PEDAGOGICAS",
                     "semester": "8",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "ANDREA DEL PILAR LIZCANO SANCHEZ",
@@ -3874,6 +3935,7 @@
                     "code": "300299",
                     "name": "PRACTICA DOCENTE: AYUDANTIA",
                     "semester": "8",
+                    "credits": 8,
                     "teachers": [
                         {
                             "professor": "MARISOL  ROJAS BELTRAN",
@@ -3939,6 +4001,7 @@
                     "code": "300305",
                     "name": "DIDACTICA DE LA LECTOESCRITURA",
                     "semester": "8",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "ROSA PATRICIA TRUJILLO MUÑOZ",
@@ -3989,6 +4052,7 @@
                     "code": "300306",
                     "name": "DIDACTICA DE LAS TIC EN LA INFANCIA",
                     "semester": "8",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "LLOIDS KEVIN FIGUEROA VARELA",
@@ -4039,6 +4103,7 @@
                     "code": "300307",
                     "name": "LENGUA DE SEÑAS",
                     "semester": "8",
+                    "credits": 2,
                     "teachers": [
                         {
                             "professor": "ORIS MARIA MERCADO MALDONADO",
@@ -4092,8 +4157,9 @@
             "subjects": [
                 {
                     "code": "300309",
-                    "name": "PRACTICA PEDAGOGICA PROFESIONAL EN EDUCA",
+                    "name": "PRACTICA PEDAGOGICA PROFESIONAL EN EDUCACION INFANTIL",
                     "semester": "9",
+                    "credits": 12,
                     "teachers": [
                         {
                             "professor": "PEGGY CECILIA DE LA HOZ BLANCO",
@@ -4164,6 +4230,7 @@
                     "code": "300310",
                     "name": "SEMINARIO DE GRADO",
                     "semester": "10",
+                    "credits": 3,
                     "teachers": [
                         {
                             "professor": "LEONARDO  CELIS ROYET",
