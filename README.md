@@ -1,50 +1,82 @@
-# React + TypeScript + Vite
+# Plataforma de Gestión de Horarios Universitarios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción del Proyecto
+Esta plataforma ha sido diseñada para facilitar la generación de horarios académicos universitarios. Permite a los estudiantes verificar posibles conflictos entre materias utilizando información proporcionada por la universidad en formato PDF. A través de herramientas intuitivas y automatizadas, los usuarios pueden organizar su carga académica de manera precisa, optimizando su planificación académica.
 
-Currently, two official plugins are available:
+### Características principales:
+- Generación de horarios académicos basados en información oficial.
+- Detección de conflictos entre materias.
+- Interfaz amigable e intuitiva.
+- Desarrollo independiente, sin relación oficial con la universidad.
+- No se solicita información privada de los usuarios.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Instalación
+Sigue los pasos a continuación para configurar el proyecto en tu entorno local:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Clonar el repositorio**:
+   ```bash
+   git clone <URL-del-repositorio>
+   ```
 
-- Configure the top-level `parserOptions` property like this:
+2. **Instalar dependencias**:
+   ```bash
+   npm install
+   ```
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+3. **Iniciar el servidor de desarrollo**:
+   ```bash
+   npm run dev
+   ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+4. **Acceder a la aplicación**:
+   Abre tu navegador y visita: `http://localhost:3000`
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Uso
+
+1. **Carga de datos**:
+   - Sube el archivo json con la información de las materias y horarios.
+
+2. **Visualización del horario**:
+   - Genera un horario basado en la información cargada.
+   - Identifica posibles conflictos entre materias.
+
+3. **Optimización del tiempo**:
+   - Ajusta tus materias para evitar conflictos y maximizar tu productividad académica.
+
+---
+
+## Tecnologías Utilizadas
+- **React** con TypeScript para el desarrollo del frontend.
+- **ShadCN** para componentes de interfaz modernos.
+- **Tailwind CSS** para el diseño responsivo.
+
+---
+
+## Contribución
+¡Las contribuciones son bienvenidas! Si deseas contribuir:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama:
+   ```bash
+   git checkout -b feature/nueva-funcionalidad
+   ```
+3. Realiza tus cambios y haz commit:
+   ```bash
+   git commit -m "Agregada nueva funcionalidad"
+   ```
+4. Envía tus cambios al repositorio remoto:
+   ```bash
+   git push origin feature/nueva-funcionalidad
+   ```
+5. Abre un Pull Request.
+
+---
+
+## Licencia
+Este proyecto está licenciado bajo la [Licencia MIT](./LICENSE).
+
+---
